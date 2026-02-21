@@ -7,6 +7,7 @@ Operational control plane for OpenClaw workflows, memory systems, automation job
 - Stack: Python, JavaScript, Shell, Markdown
 - Impact: Increased reliability and operator visibility for daily autonomous-agent execution and memory continuity.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: agent-ops, automation, observability, orchestration
 
 ### Problem
 
@@ -21,4 +22,3 @@ Built a dedicated operations workspace combining scripts, dashboards, memory syn
 - Centralizes automation scripts, memory tooling, and runbooks for a multi-agent production environment.
 - Includes operational dashboards and periodic jobs for reliability, usage tracking, and maintenance.
 - Treats agent operations as a managed system with observability and recovery workflows.
-
