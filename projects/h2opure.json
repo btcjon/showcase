@@ -1,0 +1,33 @@
+{
+  "demo_url": "https://h2opure.io/",
+  "generated_at": "2026-02-21T18:36:00Z",
+  "highlights": [
+    "Designed and shipped the H2OPure storefront experience on Shopify for direct-response conversion.",
+    "Integrated Shopify order flow with TrackDesk attribution and commission logic.",
+    "Implemented webhook-driven sync patterns to connect paid orders to affiliate tracking in near real time."
+  ],
+  "impact": "Connected storefront conversion with affiliate operations, improving attribution clarity and reducing manual commission handling.",
+  "one_liner": "E-commerce build and integration stack for h2opure.io with Shopify storefront + TrackDesk affiliate automation.",
+  "problem": "Growth required a high-converting storefront plus reliable affiliate attribution between Shopify purchases and TrackDesk partners.",
+  "project_id": "h2opure",
+  "solution": "Built the web experience and backend integration layer to unify Shopify commerce events with TrackDesk affiliate workflows.",
+  "source_repo": "btcjon/h2opure",
+  "stack": [
+    "Shopify",
+    "TrackDesk",
+    "Python",
+    "Webhook Automation",
+    "API Integrations"
+  ],
+  "status": "active",
+  "tags": [
+    "shopify",
+    "trackdesk",
+    "affiliate-marketing",
+    "ecommerce",
+    "integration"
+  ],
+  "title": "H2OPure Commerce + Affiliate Integration",
+  "updated_at": "2026-02-21",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
+}

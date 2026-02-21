@@ -1,0 +1,33 @@
+{
+  "demo_url": "https://meet.genr8ive.ai/",
+  "generated_at": "2026-02-21T18:35:00Z",
+  "highlights": [
+    "Built branded permanent room URLs on meet.genr8ive.ai so invites are frictionless and consistent.",
+    "Embedded JaaS meetings directly in a custom domain experience to avoid redirect-heavy UX.",
+    "Added signed join links, recording controls, and webhook hooks for production meeting operations."
+  ],
+  "impact": "Reduced meeting setup friction and made recurring calls faster to launch, easier to share, and simpler to manage.",
+  "one_liner": "Meetings that don't suck: frictionless branded meeting flows with instant secure join links.",
+  "problem": "Typical meeting flows break momentum with redirects, inconsistent links, and setup friction before people can actually talk.",
+  "project_id": "meet-genr8ive",
+  "solution": "Implemented a meeting launcher and permanent-room architecture on meet.genr8ive.ai with signed URLs and embedded sessions.",
+  "source_repo": "btcjon/genr8ive",
+  "stack": [
+    "Cloudflare Workers",
+    "TypeScript",
+    "JaaS (Jitsi as a Service)",
+    "JWT",
+    "Webhook Automation"
+  ],
+  "status": "active",
+  "tags": [
+    "meetings",
+    "frictionless-ux",
+    "video",
+    "workflow",
+    "agentic-infra"
+  ],
+  "title": "Genr8ive Meet",
+  "updated_at": "2026-02-21",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
+}

@@ -39,6 +39,34 @@ Monthly Contributions
 
 ## Projects
 
+### H2OPure Commerce + Affiliate Integration
+
+E-commerce build and integration stack for h2opure.io with Shopify storefront + TrackDesk affiliate automation.
+
+![H2OPure Commerce + Affiliate Integration screenshot](assets/screenshots/h2opure.png)
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: Shopify, TrackDesk, Python, Webhook Automation, API Integrations
+- Impact: Connected storefront conversion with affiliate operations, improving attribution clarity and reducing manual commission handling.
+- Demo: https://h2opure.io/
+- Details: projects/h2opure.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
+### Genr8ive Meet
+
+Meetings that don't suck: frictionless branded meeting flows with instant secure join links.
+
+![Genr8ive Meet screenshot](assets/screenshots/meet-genr8ive.png)
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: Cloudflare Workers, TypeScript, JaaS (Jitsi as a Service), JWT, Webhook Automation
+- Impact: Reduced meeting setup friction and made recurring calls faster to launch, easier to share, and simpler to manage.
+- Demo: https://meet.genr8ive.ai/
+- Details: projects/meet-genr8ive.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### AI Harness Engineering System
 
 Global AI harness architecture for reusable skills, multi-agent orchestration, memory continuity, and production-safe execution.
