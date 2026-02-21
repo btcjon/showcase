@@ -1,4 +1,5 @@
 {
+  "demo_url": "https://rxfast.ai",
   "generated_at": "2025-11-30T12:35:50+00:00",
   "highlights": [
     "Re-established the codebase on a clean React/TypeScript/Vite baseline to reduce legacy drag.",
@@ -23,7 +24,7 @@
     "refactor",
     "v3"
   ],
-  "title": "Rxion v3",
+  "title": "RXfast",
   "updated_at": "2025-11-30",
   "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

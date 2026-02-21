@@ -101,8 +101,13 @@ def load_projects(projects_dir: Path, assets_dir: Path, repo_root: Path) -> list
         ),
         reverse=True,
     )
-    # Keep CommonSenseHealth anchored at the bottom per showcase curation preference.
-    projects.sort(key=lambda p: str(p.get("_project_id", "")) == "commonsensehealth")
+    # Curated ordering for end-of-list cards.
+    bottom_priority = {
+        "ica": 1,               # near bottom
+        "commonsensehealth": 2, # near bottom
+        "zipslim": 3,           # bottom
+    }
+    projects.sort(key=lambda p: bottom_priority.get(str(p.get("_project_id", "")), 0))
     return projects
 
 

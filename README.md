@@ -102,19 +102,6 @@ Knowledge operations vault built on Obsidian for notes, clippings, archives, and
 - Details: projects/obsidian.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
-### ZipSlim Front-End Starter
-
-Lightweight design-system starter for quickly shipping polished React marketing experiences.
-
-![ZipSlim Front-End Starter screenshot](assets/screenshots/zipslim.png)
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: React, TypeScript, Tailwind CSS
-- Impact: Reduced bootstrap time for new web projects and improved design consistency across launches.
-- Details: projects/zipslim.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
 ### Browser TUI
 
 Browser-native terminal IDE shell with persistent tmux sessions and integrated file/edit workflows.
@@ -172,12 +159,13 @@ Clinical decision-support workflow that helps neurologists differentiate ALS fro
 
 AI-assisted Bible study workspace for guided scripture analysis and structured note synthesis.
 
-![Logos Study Workspace screenshot](assets/screenshots/logos.jpg)
+![Logos Study Workspace screenshot](assets/screenshots/logos.png)
 
 - Status: active
 - Updated: 2026-02-04
 - Stack: JavaScript, TypeScript, AI Studio
 - Impact: Improved consistency and depth of Bible-study sessions by reducing workflow friction between reading, interpretation, and note capture.
+- Demo: https://biblestudyapp.ai/
 - Details: projects/logos.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
@@ -205,19 +193,6 @@ Cross-platform spaced-repetition learning app focused on retention, review flow,
 - Details: projects/mnemonic.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
-### ICA Client Onboarding System
-
-Internal onboarding and delivery system for ICA client operations, SEO workflows, and implementation handoffs.
-
-![ICA Client Onboarding System screenshot](assets/screenshots/ica.png)
-
-- Status: active
-- Updated: 2026-01-12
-- Stack: HTML, JavaScript, Operations Documentation
-- Impact: Improved onboarding consistency for new client engagements and reduced setup ambiguity across service delivery.
-- Details: projects/ica.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
 ### SAI Canvas
 
 Terminal UI toolkit that gives Claude Code a dedicated canvas for interactive operations.
@@ -231,16 +206,17 @@ Terminal UI toolkit that gives Claude Code a dedicated canvas for interactive op
 - Details: projects/sai-canvas.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
-### Rxion v3
+### RXfast
 
 Third-generation front-end foundation focused on cleaner architecture and faster iteration.
 
-![Rxion v3 screenshot](assets/screenshots/rxionv3.jpeg)
+![RXfast screenshot](assets/screenshots/rxionv3.jpeg)
 
 - Status: active
 - Updated: 2025-11-30
 - Stack: React, TypeScript, Vite
 - Impact: Created a cleaner implementation surface for future product expansion with less accumulated technical friction.
+- Demo: https://rxfast.ai
 - Details: projects/rxionv3.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
@@ -282,6 +258,19 @@ Google Ads operations toolkit for keyword research, bid tuning, and campaign per
 - Details: projects/google-ads-management.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
+### ICA Client Onboarding System
+
+Internal onboarding and delivery system for ICA client operations, SEO workflows, and implementation handoffs.
+
+![ICA Client Onboarding System screenshot](assets/screenshots/ica.png)
+
+- Status: active
+- Updated: 2026-01-12
+- Stack: HTML, JavaScript, Operations Documentation
+- Impact: Improved onboarding consistency for new client engagements and reduced setup ambiguity across service delivery.
+- Details: projects/ica.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### CommonSenseHealth Web Prototype
 
 Rapid health-web prototype platform for testing messaging, flows, and conversion structure.
@@ -294,5 +283,18 @@ Rapid health-web prototype platform for testing messaging, flows, and conversion
 - Impact: Accelerated health-site concept validation while keeping a maintainable implementation path.
 - Demo: https://commonsensehealth.net
 - Details: projects/commonsensehealth.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
+### ZipSlim Front-End Starter
+
+Lightweight design-system starter for quickly shipping polished React marketing experiences.
+
+![ZipSlim Front-End Starter screenshot](assets/screenshots/zipslim.png)
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: React, TypeScript, Tailwind CSS
+- Impact: Reduced bootstrap time for new web projects and improved design consistency across launches.
+- Details: projects/zipslim.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
