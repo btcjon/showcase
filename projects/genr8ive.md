@@ -2,11 +2,15 @@
 
 Agentic engineering front-end that frames multi-agent workflows as a production command surface.
 
+![genr8ive screenshot](https://raw.githubusercontent.com/btcjon/showcase/main/assets/screenshots/genr8ive.png)
+
 - Status: active
 - Updated: 2026-02-21
 - Stack: React, TypeScript, Convex, Clerk, Cloudflare Workers
 - Impact: Established a strong foundation for multi-agent workflow composition with a distinct technical brand and interface language.
+- Demo: https://genr8ive.ai/
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: frontend, agent-workflows, ai-orchestration, product-design
 
 ### Problem
 
