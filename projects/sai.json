@@ -10,7 +10,7 @@
   "problem": "Manual execution of repetitive maintenance and monitoring tasks caused drift, inconsistency, and missed actions.",
   "project_id": "sai",
   "solution": "Implemented a job orchestration setup with config-driven schedules, state tracking, and modular task sources.",
-  "source_repo": "btcjon/sai",
+  "source_repo": "btcjon/pai",
   "stack": [
     "Python",
     "TypeScript",
