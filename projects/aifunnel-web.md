@@ -2,11 +2,15 @@
 
 High-conversion landing site for AI consulting and agentic engineering offers.
 
+![AIFunnel Web screenshot](https://raw.githubusercontent.com/btcjon/showcase/main/assets/screenshots/aifunnel-web.png)
+
 - Status: active
 - Updated: 2026-02-06
 - Stack: HTML, CSS, JavaScript, Netlify
 - Impact: Created a high-clarity front door for AI consulting offers and improved how quickly prospects understand the value proposition.
+- Demo: https://aifunnel.chat/
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: frontend, landing-page, conversion, branding
 
 ### Problem
 

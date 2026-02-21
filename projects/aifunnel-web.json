@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-02-21T15:26:00Z",
+  "demo_url": "https://aifunnel.chat/",
+  "generated_at": "2026-02-21T15:52:16.790101Z",
   "highlights": [
     "Built a conversion-first one-page funnel with strong visual identity and clear action hierarchy.",
     "Focused on performance and trust elements so visitors can understand the offer within seconds.",
@@ -9,6 +10,7 @@
   "one_liner": "High-conversion landing site for AI consulting and agentic engineering offers.",
   "problem": "The offer needed a stronger digital front door that could communicate positioning fast and convert profile visitors into qualified leads.",
   "project_id": "aifunnel-web",
+  "screenshot_url": "https://raw.githubusercontent.com/btcjon/showcase/main/assets/screenshots/aifunnel-web.png",
   "solution": "Designed and shipped a production landing experience with focused messaging, strong above-the-fold framing, and direct CTA pathways.",
   "source_repo": "btcjon/aifunnel-web",
   "stack": [
