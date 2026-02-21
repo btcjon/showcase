@@ -1,0 +1,39 @@
+name: Rebuild Showcase Index
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "projects/*.json"
+      - "README.template.md"
+      - "scripts/rebuild_index.py"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout showcase repo
+        uses: actions/checkout@v4
+
+      - name: Rebuild README
+        run: |
+          python3 scripts/rebuild_index.py \
+            --projects-dir projects \
+            --readme-template README.template.md \
+            --readme-output README.md
+
+      - name: Commit README if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No README change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs(showcase): rebuild README index"
+          git push
