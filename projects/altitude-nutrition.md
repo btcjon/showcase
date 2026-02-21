@@ -1,24 +1,24 @@
-## Altitude Nutrition
+## Altitude Nutrition Web System
 
-Stop fragmented care workflows. Start faster, clearer decisions with Altitude Nutrition.
+Reusable web foundation for Altitude Nutrition marketing and content experiences.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript, TypeScript
-- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, healthcare, javascript, private, typescript
+- Stack: React, TypeScript, Tailwind CSS
+- Impact: Cut page setup time for new content and promotions while maintaining consistent brand presentation.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.
+Nutrition-site iterations were slowed by repeatedly rebuilding common UI patterns for each new page.
 
 ### Solution
 
-Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.
+Implemented a design-system-driven React/Tailwind starter with centralized theme controls and reusable UI sections.
 
 ### Highlights
 
-- Before: scattered operational context. After: one clear execution path.
-- Automations remove repeat manual steps and enforce consistent process quality.
-- Built for production cadence: quick iteration without reliability tradeoffs.
+- Tokenized branding lets color/type changes propagate across the full interface quickly.
+- Reusable section architecture accelerates campaign and landing-page assembly.
+- Focused on maintainable front-end patterns over one-off page builds.
+

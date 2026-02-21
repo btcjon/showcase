@@ -1,24 +1,24 @@
-## Browser Tui
+## Browser TUI
 
-Stop fragmented care workflows. Start faster, clearer decisions with Browser Tui.
+Browser-native terminal IDE shell with persistent tmux sessions and integrated file/edit workflows.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: JavaScript
-- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, healthcare, javascript, private
+- Updated: 2026-02-18
+- Stack: JavaScript, Node.js, tmux, Monaco
+- Impact: Improved remote development ergonomics by reducing context switching across terminal, editor, and filesystem operations.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.
+Remote CLI work is fragmented across separate tools, making iterative operational tasks slower and more error-prone.
 
 ### Solution
 
-Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.
+Built a web workspace that unifies terminal panes, editing, and filesystem APIs behind one low-friction operational interface.
 
 ### Highlights
 
-- Before: scattered operational context. After: one clear execution path.
-- Automations remove repeat manual steps and enforce consistent process quality.
-- Built for production cadence: quick iteration without reliability tradeoffs.
+- Combines file explorer, Monaco editor, and multiple terminals in a single browser workspace.
+- Uses hidden tmux-backed terminal persistence so sessions survive browser refreshes.
+- Adds practical bridges like drag-drop uploads that immediately pipe usable paths into terminal flow.
+

@@ -1,24 +1,24 @@
-## Obsidian
+## Obsidian Knowledge Ops
 
-Stop fragmented execution. Start shipping faster, more reliable outcomes with Obsidian.
+Knowledge operations vault built on Obsidian for notes, clippings, archives, and durable project memory.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: Private codebase
-- Impact: Improved throughput and predictability by reducing operational friction across the build-to-ship loop.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, platform, private, private-codebase
+- Stack: Markdown, Python, Shell, Obsidian
+- Impact: Improved retrieval speed and long-term maintainability for high-volume notes, research captures, and project memory.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose momentum when core workflows are spread across tools with inconsistent process and ownership.
+As notes and research scale, retrieval and maintenance degrade without explicit structure and lifecycle controls.
 
 ### Solution
 
-Built an integrated workflow system that aligns execution, visibility, and automation for day-to-day delivery.
+Implemented vault architecture and automation scripts for organizing, pruning, archiving, and preserving critical context.
 
 ### Highlights
 
-- Before: disconnected steps. After: a single, trackable execution path.
-- Automation removes avoidable manual work and preserves quality.
-- Enables faster iteration with less coordination overhead.
+- Organizes long-lived knowledge into active, archived, and clipping lanes to control information entropy.
+- Adds scripted vault maintenance and backup operations for sustainable note growth.
+- Designed as an operational knowledge system, not just a note collection.
+

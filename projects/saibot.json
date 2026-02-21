@@ -1,29 +1,31 @@
 {
   "demo_url": "https://saibot.ai",
-  "generated_at": "2026-02-21T14:34:16.630096Z",
+  "generated_at": "2026-02-21T08:33:09+00:00",
   "highlights": [
-    "Before: scattered operational context. After: one clear execution path.",
-    "Automations remove repeat manual steps and enforce consistent process quality.",
-    "Built for production cadence: quick iteration without reliability tradeoffs."
+    "Packages complex OpenClaw infrastructure into a non-technical onboarding experience.",
+    "Integrates provisioning, DNS, billing, health status, and starter configuration in one product.",
+    "Built as a full-stack platform rather than a thin dashboard over manual ops."
   ],
-  "impact": "Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.",
-  "one_liner": "Stop fragmented care workflows. Start faster, clearer decisions with Saibot.",
-  "problem": "Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.",
+  "impact": "Significantly reduced time-to-first-agent for end users while lowering operational support burden.",
+  "one_liner": "Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle ops for non-technical users.",
+  "problem": "Powerful agent infrastructure is difficult for non-technical users to deploy and maintain safely.",
   "project_id": "saibot",
-  "solution": "Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.",
+  "solution": "Built a production SaaS layer over OpenClaw with automated infra setup, guided onboarding, and operational guardrails.",
   "source_repo": "btcjon/saibot",
   "stack": [
-    "JavaScript"
+    "TypeScript",
+    "React",
+    "Hono",
+    "PostgreSQL"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "healthcare",
-    "javascript",
-    "private"
+    "agent-platform",
+    "managed-service",
+    "saas",
+    "openclaw"
   ],
-  "title": "Saibot",
+  "title": "SaiBot",
   "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

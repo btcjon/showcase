@@ -1,27 +1,25 @@
-## Crosspoint
+## CrossPoint Website Migration
 
-Stop fragmented care workflows. Start faster, clearer decisions with Crosspoint.
-
-![Crosspoint screenshot](https://raw.githubusercontent.com/btcjon/showcase/main/assets/screenshots/crosspoint.png)
+Website migration and modernization program for CrossPoint Knightdale from Squarespace to Wix Studio.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: JavaScript
-- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
+- Updated: 2025-11-27
+- Stack: Wix Studio, JavaScript, Tailwind CSS, Alpine.js
+- Impact: Created a structured migration path that lowers relaunch risk and protects existing traffic/value during platform transition.
 - Demo: https://www.crosspointknightdale.com/
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, healthcare, javascript, private
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.
+The existing site required a more maintainable platform and better mobile/editor experience without losing SEO performance.
 
 ### Solution
 
-Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.
+Designed a phased migration plan covering IA, content transfer, integrations, accessibility, and redirect strategy.
 
 ### Highlights
 
-- Before: scattered operational context. After: one clear execution path.
-- Automations remove repeat manual steps and enforce consistent process quality.
-- Built for production cadence: quick iteration without reliability tradeoffs.
+- Planned migration from Squarespace to Wix Studio while preserving core church workflows and SEO continuity.
+- Emphasizes content portability, accessibility compliance, and non-technical editor maintainability.
+- Treats migration as an operational program (redirects, integrations, forms), not a visual reskin only.
+

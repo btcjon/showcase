@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-02-21T14:34:18.637914Z",
+  "generated_at": "2026-01-24T13:19:26+00:00",
   "highlights": [
-    "Before: fragmented scripts. After: unified automation with guardrails.",
-    "Execution paths are explicit, repeatable, and easier to debug.",
-    "Designed for iterative scale while preserving maintainability."
+    "Runs recurring automation jobs for monitoring, task generation, bookmarking, and system checks.",
+    "Persists job state and execution metadata to keep daily workflows deterministic.",
+    "Combines Python and TypeScript job pipelines for flexible automation coverage."
   ],
-  "impact": "Reduced repetitive engineering overhead and increased team throughput on high-leverage work.",
-  "one_liner": "Stop manual tool-chaining. Start reliable, automated developer workflows with Sai.",
-  "problem": "Engineering velocity drops when repetitive operational tasks rely on ad-hoc scripts and context switching.",
+  "impact": "Reduced manual operational overhead by turning repeatable AI/admin routines into scheduled, stateful automation.",
+  "one_liner": "Automation hub for recurring AI operations, monitoring jobs, and task generation workflows.",
+  "problem": "Manual execution of repetitive maintenance and monitoring tasks caused drift, inconsistency, and missed actions.",
   "project_id": "sai",
-  "solution": "Engineered a pragmatic automation layer that standardizes high-frequency workflows and keeps execution observable.",
+  "solution": "Implemented a job orchestration setup with config-driven schedules, state tracking, and modular task sources.",
   "source_repo": "btcjon/sai",
   "stack": [
-    "JavaScript"
+    "Python",
+    "TypeScript",
+    "Node.js",
+    "Automation"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "developer",
-    "javascript",
-    "private"
+    "agent-automation",
+    "orchestration",
+    "ops",
+    "scheduler"
   ],
-  "title": "Sai",
-  "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "title": "SAI Automation Core",
+  "updated_at": "2026-01-24",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

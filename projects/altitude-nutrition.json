@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-02-21T14:33:31.241708Z",
+  "generated_at": "2026-02-21T00:00:00Z",
   "highlights": [
-    "Before: scattered operational context. After: one clear execution path.",
-    "Automations remove repeat manual steps and enforce consistent process quality.",
-    "Built for production cadence: quick iteration without reliability tradeoffs."
+    "Tokenized branding lets color/type changes propagate across the full interface quickly.",
+    "Reusable section architecture accelerates campaign and landing-page assembly.",
+    "Focused on maintainable front-end patterns over one-off page builds."
   ],
-  "impact": "Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.",
-  "one_liner": "Stop fragmented care workflows. Start faster, clearer decisions with Altitude Nutrition.",
-  "problem": "Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.",
+  "impact": "Cut page setup time for new content and promotions while maintaining consistent brand presentation.",
+  "one_liner": "Reusable web foundation for Altitude Nutrition marketing and content experiences.",
+  "problem": "Nutrition-site iterations were slowed by repeatedly rebuilding common UI patterns for each new page.",
   "project_id": "altitude-nutrition",
-  "solution": "Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.",
+  "solution": "Implemented a design-system-driven React/Tailwind starter with centralized theme controls and reusable UI sections.",
   "source_repo": "btcjon/altitude-nutrition",
   "stack": [
-    "JavaScript",
-    "TypeScript"
+    "React",
+    "TypeScript",
+    "Tailwind CSS"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "healthcare",
-    "javascript",
-    "private",
-    "typescript"
+    "design-system",
+    "frontend",
+    "health-brand",
+    "web"
   ],
-  "title": "Altitude Nutrition",
+  "title": "Altitude Nutrition Web System",
   "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

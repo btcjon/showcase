@@ -1,24 +1,24 @@
-## Mnemonic
+## Mnemonic Learning App
 
-Stop fragmented execution. Start shipping faster, more reliable outcomes with Mnemonic.
+Cross-platform spaced-repetition learning app focused on retention, review flow, and study consistency.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: Private codebase
-- Impact: Improved throughput and predictability by reducing operational friction across the build-to-ship loop.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, platform, private, private-codebase
+- Updated: 2026-01-15
+- Stack: TypeScript, React Native, Expo, Web
+- Impact: Established a robust foundation for habit-forming recall practice with measurable review progression.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose momentum when core workflows are spread across tools with inconsistent process and ownership.
+Standard flashcard tools often fail to sustain engagement and consistent review behavior over time.
 
 ### Solution
 
-Built an integrated workflow system that aligns execution, visibility, and automation for day-to-day delivery.
+Built a mobile/web learning architecture with structured review sessions, sync-aware state, and gamified reinforcement.
 
 ### Highlights
 
-- Before: disconnected steps. After: a single, trackable execution path.
-- Automation removes avoidable manual work and preserves quality.
-- Enables faster iteration with less coordination overhead.
+- Implements review-centric UX components (swipe cards, progress bars, rating flows) for retention loops.
+- Uses dedicated sync/auth/review hooks to keep learning state coherent across sessions.
+- Combines gamification mechanics with practical study cadence rather than novelty-only interaction.
+

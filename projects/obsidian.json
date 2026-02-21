@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-02-21T14:33:55.017642Z",
+  "generated_at": "2026-02-21T00:00:00Z",
   "highlights": [
-    "Before: disconnected steps. After: a single, trackable execution path.",
-    "Automation removes avoidable manual work and preserves quality.",
-    "Enables faster iteration with less coordination overhead."
+    "Organizes long-lived knowledge into active, archived, and clipping lanes to control information entropy.",
+    "Adds scripted vault maintenance and backup operations for sustainable note growth.",
+    "Designed as an operational knowledge system, not just a note collection."
   ],
-  "impact": "Improved throughput and predictability by reducing operational friction across the build-to-ship loop.",
-  "one_liner": "Stop fragmented execution. Start shipping faster, more reliable outcomes with Obsidian.",
-  "problem": "Teams lose momentum when core workflows are spread across tools with inconsistent process and ownership.",
+  "impact": "Improved retrieval speed and long-term maintainability for high-volume notes, research captures, and project memory.",
+  "one_liner": "Knowledge operations vault built on Obsidian for notes, clippings, archives, and durable project memory.",
+  "problem": "As notes and research scale, retrieval and maintenance degrade without explicit structure and lifecycle controls.",
   "project_id": "obsidian",
-  "solution": "Built an integrated workflow system that aligns execution, visibility, and automation for day-to-day delivery.",
+  "solution": "Implemented vault architecture and automation scripts for organizing, pruning, archiving, and preserving critical context.",
   "source_repo": "btcjon/obsidian",
   "stack": [
-    "Private codebase"
+    "Markdown",
+    "Python",
+    "Shell",
+    "Obsidian"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "platform",
-    "private",
-    "private-codebase"
+    "knowledge-management",
+    "notes",
+    "ops",
+    "personal-system"
   ],
-  "title": "Obsidian",
+  "title": "Obsidian Knowledge Ops",
   "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

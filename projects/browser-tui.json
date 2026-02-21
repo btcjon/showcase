@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-02-21T14:33:32.729209Z",
+  "generated_at": "2026-02-18T14:15:59+00:00",
   "highlights": [
-    "Before: scattered operational context. After: one clear execution path.",
-    "Automations remove repeat manual steps and enforce consistent process quality.",
-    "Built for production cadence: quick iteration without reliability tradeoffs."
+    "Combines file explorer, Monaco editor, and multiple terminals in a single browser workspace.",
+    "Uses hidden tmux-backed terminal persistence so sessions survive browser refreshes.",
+    "Adds practical bridges like drag-drop uploads that immediately pipe usable paths into terminal flow."
   ],
-  "impact": "Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.",
-  "one_liner": "Stop fragmented care workflows. Start faster, clearer decisions with Browser Tui.",
-  "problem": "Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.",
+  "impact": "Improved remote development ergonomics by reducing context switching across terminal, editor, and filesystem operations.",
+  "one_liner": "Browser-native terminal IDE shell with persistent tmux sessions and integrated file/edit workflows.",
+  "problem": "Remote CLI work is fragmented across separate tools, making iterative operational tasks slower and more error-prone.",
   "project_id": "browser-tui",
-  "solution": "Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.",
+  "solution": "Built a web workspace that unifies terminal panes, editing, and filesystem APIs behind one low-friction operational interface.",
   "source_repo": "btcjon/browser-tui",
   "stack": [
-    "JavaScript"
+    "JavaScript",
+    "Node.js",
+    "tmux",
+    "Monaco"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "healthcare",
-    "javascript",
-    "private"
+    "browser-ide",
+    "developer-tools",
+    "terminal",
+    "tui"
   ],
-  "title": "Browser Tui",
-  "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "title": "Browser TUI",
+  "updated_at": "2026-02-18",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

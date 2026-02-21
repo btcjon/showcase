@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-02-21T14:33:24.122192Z",
+  "generated_at": "2025-11-19T23:07:49+00:00",
   "highlights": [
-    "Before: fragmented scripts. After: unified automation with guardrails.",
-    "Execution paths are explicit, repeatable, and easier to debug.",
-    "Designed for iterative scale while preserving maintainability."
+    "Built as a rapid 3D concept lab where interaction ideas can be tested in-browser in minutes.",
+    "Uses AI-assisted iteration to tune scene behavior and interaction states without heavy engine setup.",
+    "Structured as a lightweight local + AI Studio workflow for fast demo publishing and feedback."
   ],
-  "impact": "Reduced repetitive engineering overhead and increased team throughput on high-leverage work.",
-  "one_liner": "Stop manual tool-chaining. Start reliable, automated developer workflows with 3js.",
-  "problem": "Engineering velocity drops when repetitive operational tasks rely on ad-hoc scripts and context switching.",
+  "impact": "Reduced concept-to-demo time for interactive 3D explorations and made visual interaction decisions easier to validate early.",
+  "one_liner": "Interactive 3D particle experience used to prototype motion, camera, and behavior ideas quickly.",
+  "problem": "3D concept testing is usually slowed down by heavy setup and long feedback cycles before ideas can be evaluated.",
   "project_id": "optimialrx",
-  "solution": "Engineered a pragmatic automation layer that standardizes high-frequency workflows and keeps execution observable.",
+  "solution": "Implemented a lean Vite/TypeScript app that emphasizes direct parameter control and fast AI-assisted iteration for scene behaviors.",
   "source_repo": "btcjon/optimialrx",
   "stack": [
     "JavaScript",
-    "TypeScript"
+    "TypeScript",
+    "WebGL"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "developer",
-    "javascript",
-    "private",
-    "typescript"
+    "3d",
+    "frontend",
+    "interaction",
+    "prototype",
+    "webgl"
   ],
-  "title": "3js",
-  "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "title": "3D Particle Manipulator",
+  "updated_at": "2025-11-19",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

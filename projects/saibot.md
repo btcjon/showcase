@@ -1,25 +1,25 @@
-## Saibot
+## SaiBot
 
-Stop fragmented care workflows. Start faster, clearer decisions with Saibot.
+Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle ops for non-technical users.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript
-- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
+- Stack: TypeScript, React, Hono, PostgreSQL
+- Impact: Significantly reduced time-to-first-agent for end users while lowering operational support burden.
 - Demo: https://saibot.ai
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, healthcare, javascript, private
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.
+Powerful agent infrastructure is difficult for non-technical users to deploy and maintain safely.
 
 ### Solution
 
-Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.
+Built a production SaaS layer over OpenClaw with automated infra setup, guided onboarding, and operational guardrails.
 
 ### Highlights
 
-- Before: scattered operational context. After: one clear execution path.
-- Automations remove repeat manual steps and enforce consistent process quality.
-- Built for production cadence: quick iteration without reliability tradeoffs.
+- Packages complex OpenClaw infrastructure into a non-technical onboarding experience.
+- Integrates provisioning, DNS, billing, health status, and starter configuration in one product.
+- Built as a full-stack platform rather than a thin dashboard over manual ops.
+

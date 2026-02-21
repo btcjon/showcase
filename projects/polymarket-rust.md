@@ -1,24 +1,24 @@
-## Polymarket
+## Polymarket Trading System
 
-Stop guessing market execution. Start shipping repeatable, data-backed decisions with Polymarket.
+Automated Polymarket trading and arbitrage system for real-time detection, risk checks, and execution.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: JavaScript
-- Impact: Lowered decision latency and improved repeatability of strategy execution under real market conditions.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, javascript, private, trading
+- Updated: 2026-02-14
+- Stack: JavaScript, Node.js, WebSockets, Python
+- Impact: Improved speed and discipline of opportunity detection/execution in Polymarket-focused trading workflows.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Manual market workflows create inconsistent entries, weak risk discipline, and delayed signal response.
+Prediction-market inefficiencies are fleeting and difficult to exploit consistently with manual monitoring and execution.
 
 ### Solution
 
-Implemented an execution-focused platform with automation, instrumentation, and decision loops designed for speed and control.
+Built a modular trading stack with real-time detection engines, execution safeguards, and strategy-specific scanners.
 
 ### Highlights
 
-- Before: discretionary, fragmented actions. After: consistent execution loops.
-- Signal-to-action path is automated to reduce lag and human error.
-- System emphasizes controllable risk and measurable iteration velocity.
+- Implements multiple arbitrage strategies (mutually exclusive, cascade mispricing, and yes/no gaps).
+- Separates detector/executor/client layers for clearer risk controls and live-vs-mock execution modes.
+- Uses real-time market feeds with safety rails (position sizing, loss limits) to manage execution risk.
+

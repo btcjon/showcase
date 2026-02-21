@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-02-21T14:34:01.461161Z",
+  "generated_at": "2026-02-14T14:02:35+00:00",
   "highlights": [
-    "Before: discretionary, fragmented actions. After: consistent execution loops.",
-    "Signal-to-action path is automated to reduce lag and human error.",
-    "System emphasizes controllable risk and measurable iteration velocity."
+    "Implements multiple arbitrage strategies (mutually exclusive, cascade mispricing, and yes/no gaps).",
+    "Separates detector/executor/client layers for clearer risk controls and live-vs-mock execution modes.",
+    "Uses real-time market feeds with safety rails (position sizing, loss limits) to manage execution risk."
   ],
-  "impact": "Lowered decision latency and improved repeatability of strategy execution under real market conditions.",
-  "one_liner": "Stop guessing market execution. Start shipping repeatable, data-backed decisions with Polymarket.",
-  "problem": "Manual market workflows create inconsistent entries, weak risk discipline, and delayed signal response.",
+  "impact": "Improved speed and discipline of opportunity detection/execution in Polymarket-focused trading workflows.",
+  "one_liner": "Automated Polymarket trading and arbitrage system for real-time detection, risk checks, and execution.",
+  "problem": "Prediction-market inefficiencies are fleeting and difficult to exploit consistently with manual monitoring and execution.",
   "project_id": "polymarket-rust",
-  "solution": "Implemented an execution-focused platform with automation, instrumentation, and decision loops designed for speed and control.",
+  "solution": "Built a modular trading stack with real-time detection engines, execution safeguards, and strategy-specific scanners.",
   "source_repo": "btcjon/polymarket-rust",
   "stack": [
-    "JavaScript"
+    "JavaScript",
+    "Node.js",
+    "WebSockets",
+    "Python"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "javascript",
-    "private",
+    "arbitrage",
+    "polymarket",
+    "risk-controls",
     "trading"
   ],
-  "title": "Polymarket",
-  "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "title": "Polymarket Trading System",
+  "updated_at": "2026-02-14",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

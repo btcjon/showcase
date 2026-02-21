@@ -1,24 +1,24 @@
-## Sai
+## SAI Automation Core
 
-Stop manual tool-chaining. Start reliable, automated developer workflows with Sai.
+Automation hub for recurring AI operations, monitoring jobs, and task generation workflows.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: JavaScript
-- Impact: Reduced repetitive engineering overhead and increased team throughput on high-leverage work.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, developer, javascript, private
+- Updated: 2026-01-24
+- Stack: Python, TypeScript, Node.js, Automation
+- Impact: Reduced manual operational overhead by turning repeatable AI/admin routines into scheduled, stateful automation.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Engineering velocity drops when repetitive operational tasks rely on ad-hoc scripts and context switching.
+Manual execution of repetitive maintenance and monitoring tasks caused drift, inconsistency, and missed actions.
 
 ### Solution
 
-Engineered a pragmatic automation layer that standardizes high-frequency workflows and keeps execution observable.
+Implemented a job orchestration setup with config-driven schedules, state tracking, and modular task sources.
 
 ### Highlights
 
-- Before: fragmented scripts. After: unified automation with guardrails.
-- Execution paths are explicit, repeatable, and easier to debug.
-- Designed for iterative scale while preserving maintainability.
+- Runs recurring automation jobs for monitoring, task generation, bookmarking, and system checks.
+- Persists job state and execution metadata to keep daily workflows deterministic.
+- Combines Python and TypeScript job pipelines for flexible automation coverage.
+

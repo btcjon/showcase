@@ -9,6 +9,18 @@ import json
 from pathlib import Path
 from typing import Any
 
+EXCLUDED_PROJECT_IDS = {
+    "ai-web-design",
+    "als-diag",
+    "cc-vps",
+    "claroty2",
+    "clartity1",
+    "kestra_dev",
+    "moltbot-workspace",
+    "rxion-biz",
+    "rxionv2",
+}
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
@@ -25,6 +37,13 @@ def parse_date(value: str) -> dt.date:
         return dt.date(1970, 1, 1)
 
 
+def parse_datetime(value: str) -> dt.datetime:
+    try:
+        return dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return dt.datetime(1970, 1, 1, tzinfo=dt.UTC)
+
+
 def load_projects(projects_dir: Path) -> list[dict[str, Any]]:
     projects: list[dict[str, Any]] = []
     for path in sorted(projects_dir.glob("*.json")):
@@ -36,9 +55,18 @@ def load_projects(projects_dir: Path) -> list[dict[str, Any]]:
             continue
         raw["_filename"] = path.name
         raw["_stem"] = path.stem
+        project_id = str(raw.get("project_id", path.stem))
+        if project_id in EXCLUDED_PROJECT_IDS or path.stem in EXCLUDED_PROJECT_IDS:
+            continue
         projects.append(raw)
 
-    projects.sort(key=lambda p: parse_date(str(p.get("updated_at", ""))), reverse=True)
+    projects.sort(
+        key=lambda p: (
+            parse_date(str(p.get("updated_at", ""))),
+            parse_datetime(str(p.get("generated_at", ""))),
+        ),
+        reverse=True,
+    )
     return projects
 
 
@@ -51,18 +79,12 @@ def render_card(project: dict[str, Any]) -> str:
     stack = project.get("stack", [])
     stack_text = ", ".join(stack) if isinstance(stack, list) else str(stack)
     project_page = f"projects/{project.get('_stem', '')}.md"
-    screenshot_url = project.get("screenshot_url")
-
     lines = [
         f"### {title}",
         "",
         one_liner,
         "",
     ]
-
-    if isinstance(screenshot_url, str) and screenshot_url.strip():
-        lines.append(f"![{title} screenshot]({screenshot_url})")
-        lines.append("")
 
     lines.extend([
         f"- Status: {status}",

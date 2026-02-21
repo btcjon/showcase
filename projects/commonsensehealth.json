@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-02-21T14:33:45.313261Z",
+  "generated_at": "2026-02-21T00:00:00Z",
   "highlights": [
-    "Before: scattered operational context. After: one clear execution path.",
-    "Automations remove repeat manual steps and enforce consistent process quality.",
-    "Built for production cadence: quick iteration without reliability tradeoffs."
+    "Uses a hybrid build loop: fast generation for ideation, local code for controlled refinement.",
+    "Structured as a component-first React/Tailwind codebase for quick message and layout iteration.",
+    "Balances speed-to-prototype with production ownership in git."
   ],
-  "impact": "Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.",
-  "one_liner": "Stop fragmented care workflows. Start faster, clearer decisions with Commonsensehealth.",
-  "problem": "Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.",
+  "impact": "Accelerated health-site concept validation while keeping a maintainable implementation path.",
+  "one_liner": "Rapid health-web prototype platform for testing messaging, flows, and conversion structure.",
+  "problem": "Early-stage product messaging needed fast validation without committing to slow, heavyweight custom builds.",
   "project_id": "commonsensehealth",
-  "solution": "Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.",
+  "solution": "Built a fast-iteration front-end workflow around reusable components and prompt-assisted generation with local hardening.",
   "source_repo": "btcjon/commonsensehealth",
   "stack": [
-    "JavaScript",
-    "TypeScript"
+    "React",
+    "TypeScript",
+    "Tailwind CSS"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
     "healthcare",
-    "javascript",
-    "private",
-    "typescript"
+    "landing-pages",
+    "prototype",
+    "ui"
   ],
-  "title": "Commonsensehealth",
+  "title": "CommonSenseHealth Web Prototype",
   "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

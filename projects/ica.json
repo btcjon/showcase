@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-02-21T14:33:26.575286Z",
+  "generated_at": "2026-01-12T18:36:55+00:00",
   "highlights": [
-    "Before: disconnected steps. After: a single, trackable execution path.",
-    "Automation removes avoidable manual work and preserves quality.",
-    "Enables faster iteration with less coordination overhead."
+    "Converted scattered client docs into repeatable onboarding workflows with clear execution steps.",
+    "Combined sales/onboarding assets, implementation playbooks, and service-plan artifacts in one operating surface.",
+    "Designed for white-label and SEO operations handoffs where consistency matters more than one-off customization."
   ],
-  "impact": "Improved throughput and predictability by reducing operational friction across the build-to-ship loop.",
-  "one_liner": "Stop fragmented execution. Start shipping faster, more reliable outcomes with Ica.",
-  "problem": "Teams lose momentum when core workflows are spread across tools with inconsistent process and ownership.",
+  "impact": "Improved onboarding consistency for new client engagements and reduced setup ambiguity across service delivery.",
+  "one_liner": "Internal onboarding and delivery system for ICA client operations, SEO workflows, and implementation handoffs.",
+  "problem": "Client onboarding depended on fragmented docs and tribal knowledge, creating inconsistent starts and slower delivery ramp.",
   "project_id": "ica",
-  "solution": "Built an integrated workflow system that aligns execution, visibility, and automation for day-to-day delivery.",
+  "solution": "Built a structured operations layer of reusable guides, service-plan templates, and execution documentation to standardize delivery.",
   "source_repo": "btcjon/ica",
   "stack": [
-    "Private codebase"
+    "HTML",
+    "JavaScript",
+    "Operations Documentation"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "platform",
-    "private",
-    "private-codebase"
+    "client-onboarding",
+    "operations",
+    "seo",
+    "service-delivery"
   ],
-  "title": "Ica",
-  "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "title": "ICA Client Onboarding System",
+  "updated_at": "2026-01-12",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

@@ -1,24 +1,24 @@
-## Google Ads
+## Google Ads Keyword & Bid Manager
 
-Stop fragmented care workflows. Start faster, clearer decisions with Google Ads.
+Google Ads operations toolkit for keyword research, bid tuning, and campaign performance diagnostics.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: Python
-- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, healthcare, private, python
+- Updated: 2025-10-10
+- Stack: Python, Google Ads API, OAuth2
+- Impact: Improved speed and consistency of keyword/bid management decisions in Google Ads operations.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.
+Campaign optimization required repetitive manual analysis and inconsistent bid decision workflows.
 
 ### Solution
 
-Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.
+Created CLI tools that unify keyword discovery, performance analysis, and guardrailed bid management actions.
 
 ### Highlights
 
-- Before: scattered operational context. After: one clear execution path.
-- Automations remove repeat manual steps and enforce consistent process quality.
-- Built for production cadence: quick iteration without reliability tradeoffs.
+- Supports keyword opportunity discovery with practical filters for volume, competition, and CPC.
+- Implements bid-adjustment workflows with dry-run safety before live execution.
+- Built around repeatable command-line routines for day-to-day campaign operations.
+

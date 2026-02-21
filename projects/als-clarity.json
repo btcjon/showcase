@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-02-21T14:33:29.947634Z",
+  "generated_at": "2026-02-05T17:19:16+00:00",
   "highlights": [
-    "Before: scattered operational context. After: one clear execution path.",
-    "Automations remove repeat manual steps and enforce consistent process quality.",
-    "Built for production cadence: quick iteration without reliability tradeoffs."
+    "Implements El Escorial criteria scoring and differential analysis against multiple ALS mimics.",
+    "Integrates clinical test workflows with evidence lookup and structured diagnostic reporting.",
+    "Designed as a clinician-facing decision-support flow, not a black-box prediction widget."
   ],
-  "impact": "Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.",
-  "one_liner": "Stop fragmented care workflows. Start faster, clearer decisions with Als Clarity.",
-  "problem": "Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.",
+  "impact": "Improved diagnostic workflow consistency and reduced manual synthesis burden during ALS-vs-mimic evaluations.",
+  "one_liner": "Clinical decision-support workflow that helps neurologists differentiate ALS from look-alike conditions.",
+  "problem": "ALS workups require synthesizing many test streams and mimic conditions under high uncertainty and time pressure.",
   "project_id": "als-clarity",
-  "solution": "Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.",
+  "solution": "Built a structured diagnostic system combining test interpretation, criteria scoring, and research-backed differential workflows.",
   "source_repo": "btcjon/als-clarity",
   "stack": [
-    "JavaScript",
-    "TypeScript"
+    "React",
+    "TypeScript",
+    "Convex",
+    "AI APIs"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "healthcare",
-    "javascript",
-    "private",
-    "typescript"
+    "clinical-workflow",
+    "decision-support",
+    "diagnostics",
+    "healthcare"
   ],
-  "title": "Als Clarity",
-  "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "title": "ALS Clarity",
+  "updated_at": "2026-02-05",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }

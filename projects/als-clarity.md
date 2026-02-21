@@ -1,24 +1,24 @@
-## Als Clarity
+## ALS Clarity
 
-Stop fragmented care workflows. Start faster, clearer decisions with Als Clarity.
+Clinical decision-support workflow that helps neurologists differentiate ALS from look-alike conditions.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: JavaScript, TypeScript
-- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, healthcare, javascript, private, typescript
+- Updated: 2026-02-05
+- Stack: React, TypeScript, Convex, AI APIs
+- Impact: Improved diagnostic workflow consistency and reduced manual synthesis burden during ALS-vs-mimic evaluations.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.
+ALS workups require synthesizing many test streams and mimic conditions under high uncertainty and time pressure.
 
 ### Solution
 
-Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.
+Built a structured diagnostic system combining test interpretation, criteria scoring, and research-backed differential workflows.
 
 ### Highlights
 
-- Before: scattered operational context. After: one clear execution path.
-- Automations remove repeat manual steps and enforce consistent process quality.
-- Built for production cadence: quick iteration without reliability tradeoffs.
+- Implements El Escorial criteria scoring and differential analysis against multiple ALS mimics.
+- Integrates clinical test workflows with evidence lookup and structured diagnostic reporting.
+- Designed as a clinician-facing decision-support flow, not a black-box prediction widget.
+

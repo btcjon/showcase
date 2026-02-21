@@ -1,24 +1,24 @@
-## 3js
+## 3D Particle Manipulator
 
-Stop manual tool-chaining. Start reliable, automated developer workflows with 3js.
+Interactive 3D particle experience used to prototype motion, camera, and behavior ideas quickly.
 
 - Status: active
-- Updated: 2026-02-21
-- Stack: JavaScript, TypeScript
-- Impact: Reduced repetitive engineering overhead and increased team throughput on high-leverage work.
-- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
-- Tags: apex, automation, developer, javascript, private, typescript
+- Updated: 2025-11-19
+- Stack: JavaScript, TypeScript, WebGL
+- Impact: Reduced concept-to-demo time for interactive 3D explorations and made visual interaction decisions easier to validate early.
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
 
-Engineering velocity drops when repetitive operational tasks rely on ad-hoc scripts and context switching.
+3D concept testing is usually slowed down by heavy setup and long feedback cycles before ideas can be evaluated.
 
 ### Solution
 
-Engineered a pragmatic automation layer that standardizes high-frequency workflows and keeps execution observable.
+Implemented a lean Vite/TypeScript app that emphasizes direct parameter control and fast AI-assisted iteration for scene behaviors.
 
 ### Highlights
 
-- Before: fragmented scripts. After: unified automation with guardrails.
-- Execution paths are explicit, repeatable, and easier to debug.
-- Designed for iterative scale while preserving maintainability.
+- Built as a rapid 3D concept lab where interaction ideas can be tested in-browser in minutes.
+- Uses AI-assisted iteration to tune scene behavior and interaction states without heavy engine setup.
+- Structured as a lightweight local + AI Studio workflow for fast demo publishing and feedback.
+

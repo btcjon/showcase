@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-02-21T14:33:47.398917Z",
+  "generated_at": "2026-02-04T23:53:15+00:00",
   "highlights": [
-    "Before: slow manual handoffs. After: streamlined build-to-publish flow.",
-    "Structured workflows improve consistency across pages, campaigns, and assets.",
-    "Supports rapid iteration driven by performance feedback loops."
+    "Built to streamline scripture exploration from question to structured study notes.",
+    "Uses an AI-assisted flow to keep sessions focused while preserving user-controlled interpretation.",
+    "Optimized as a fast-iteration app deployed through AI Studio for quick feedback loops."
   ],
-  "impact": "Cut production friction and increased campaign throughput without sacrificing message quality or brand consistency.",
-  "one_liner": "Stop slow launch cycles. Start publishing conversion-focused assets faster with Logos.",
-  "problem": "Content and campaign teams lose momentum when creation, approval, and deployment happen in disconnected steps.",
+  "impact": "Improved consistency and depth of Bible-study sessions by reducing workflow friction between reading, interpretation, and note capture.",
+  "one_liner": "AI-assisted Bible study workspace for guided scripture analysis and structured note synthesis.",
+  "problem": "Personal study was fragmented across tools, making it hard to move from questions to coherent insights quickly.",
   "project_id": "logos",
-  "solution": "Built a delivery pipeline that turns strategy into shipped assets quickly, with quality controls and reusable workflows.",
+  "solution": "Implemented a focused study interface with guided prompts and output structure for repeatable, deeper study sessions.",
   "source_repo": "btcjon/logos",
   "stack": [
     "JavaScript",
-    "TypeScript"
+    "TypeScript",
+    "AI Studio"
   ],
   "status": "active",
   "tags": [
-    "apex",
-    "automation",
-    "javascript",
-    "marketing",
-    "private",
-    "typescript"
+    "bible-study",
+    "knowledge-workflow",
+    "spiritual-tech",
+    "ux"
   ],
-  "title": "Logos",
-  "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
+  "title": "Logos Study Workspace",
+  "updated_at": "2026-02-04",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
 }
