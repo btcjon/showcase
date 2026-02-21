@@ -8,17 +8,6 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Projects
 
-### OpenClaw Workspace
-
-Operational control plane for OpenClaw workflows, memory systems, automation jobs, and system observability.
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: Python, JavaScript, Shell, Markdown
-- Impact: Increased reliability and operator visibility for daily autonomous-agent execution and memory continuity.
-- Details: projects/openclaw-workspace.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
 ### SaiBot
 
 Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle ops for non-technical users.
@@ -29,6 +18,17 @@ Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle o
 - Impact: Significantly reduced time-to-first-agent for end users while lowering operational support burden.
 - Demo: https://saibot.ai
 - Details: projects/saibot.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
+### OpenClaw Workspace
+
+Operational control plane for OpenClaw workflows, memory systems, automation jobs, and system observability.
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: Python, JavaScript, Shell, Markdown
+- Impact: Increased reliability and operator visibility for daily autonomous-agent execution and memory continuity.
+- Details: projects/openclaw-workspace.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Altitude Nutrition Web System
