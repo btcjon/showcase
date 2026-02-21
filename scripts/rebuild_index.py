@@ -108,6 +108,19 @@ def load_projects(projects_dir: Path, assets_dir: Path, repo_root: Path) -> list
         "zipslim": 3,           # bottom
     }
     projects.sort(key=lambda p: bottom_priority.get(str(p.get("_project_id", "")), 0))
+
+    # Place specific projects directly below Browser TUI.
+    anchor_id = "browser-tui"
+    move_ids = {"meet-genr8ive", "h2opure"}
+    moved = [p for p in projects if str(p.get("_project_id", "")) in move_ids]
+    if moved:
+        projects = [p for p in projects if str(p.get("_project_id", "")) not in move_ids]
+        anchor_idx = next((i for i, p in enumerate(projects) if str(p.get("_project_id", "")) == anchor_id), -1)
+        if anchor_idx >= 0:
+            # Keep these two in the same relative order they had after the main sort.
+            projects[anchor_idx + 1:anchor_idx + 1] = moved
+        else:
+            projects.extend(moved)
     return projects
 
 
