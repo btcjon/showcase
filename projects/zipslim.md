@@ -7,6 +7,7 @@ Lightweight design-system starter for quickly shipping polished React marketing 
 - Stack: React, TypeScript, Tailwind CSS
 - Impact: Reduced bootstrap time for new web projects and improved design consistency across launches.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: design-system, frontend, starter, web
 
 ### Problem
 
@@ -21,4 +22,3 @@ Created a reusable React/Tailwind baseline with tokenized theming and pragmatic 
 - Provides a reusable front-end starter focused on speed, consistency, and low setup overhead.
 - Centralized theming enables rapid brand adaptation across new builds.
 - Keeps component structure simple so teams can ship quickly without accruing immediate UI debt.
-

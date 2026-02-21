@@ -8,6 +8,17 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Projects
 
+### ZipSlim Front-End Starter
+
+Lightweight design-system starter for quickly shipping polished React marketing experiences.
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: React, TypeScript, Tailwind CSS
+- Impact: Reduced bootstrap time for new web projects and improved design consistency across launches.
+- Details: projects/zipslim.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### OpenClaw Workspace
 
 Operational control plane for OpenClaw workflows, memory systems, automation jobs, and system observability.
@@ -73,17 +84,6 @@ Knowledge operations vault built on Obsidian for notes, clippings, archives, and
 - Stack: Markdown, Python, Shell, Obsidian
 - Impact: Improved retrieval speed and long-term maintainability for high-volume notes, research captures, and project memory.
 - Details: projects/obsidian.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
-### ZipSlim Front-End Starter
-
-Lightweight design-system starter for quickly shipping polished React marketing experiences.
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: React, TypeScript, Tailwind CSS
-- Impact: Reduced bootstrap time for new web projects and improved design consistency across launches.
-- Details: projects/zipslim.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Browser TUI
