@@ -7,6 +7,7 @@ Google Ads operations toolkit for keyword research, bid tuning, and campaign per
 - Stack: Python, Google Ads API, OAuth2
 - Impact: Improved speed and consistency of keyword/bid management decisions in Google Ads operations.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: ads-ops, google-ads, keyword-research, performance
 
 ### Problem
 
@@ -21,4 +22,3 @@ Created CLI tools that unify keyword discovery, performance analysis, and guardr
 - Supports keyword opportunity discovery with practical filters for volume, competition, and CPC.
 - Implements bid-adjustment workflows with dry-run safety before live execution.
 - Built around repeatable command-line routines for day-to-day campaign operations.
-
