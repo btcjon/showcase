@@ -7,6 +7,7 @@ Clinical decision-support workflow that helps neurologists differentiate ALS fro
 - Stack: React, TypeScript, Convex, AI APIs
 - Impact: Improved diagnostic workflow consistency and reduced manual synthesis burden during ALS-vs-mimic evaluations.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: clinical-workflow, decision-support, diagnostics, healthcare
 
 ### Problem
 
@@ -21,4 +22,3 @@ Built a structured diagnostic system combining test interpretation, criteria sco
 - Implements El Escorial criteria scoring and differential analysis against multiple ALS mimics.
 - Integrates clinical test workflows with evidence lookup and structured diagnostic reporting.
 - Designed as a clinician-facing decision-support flow, not a black-box prediction widget.
-
