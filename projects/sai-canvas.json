@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-10T00:10:32+00:00",
+  "generated_at": "2026-02-21T14:56:34.593458Z",
   "highlights": [
     "Introduces a terminal-native UI layer so agent workflows can be monitored in structured panes.",
     "Uses tmux-based composition to keep interaction fast, scriptable, and operationally lightweight.",
