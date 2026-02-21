@@ -7,6 +7,7 @@ AI-assisted Gmail triage and monitoring system for categorization, alerting, and
 - Stack: Python, Gmail API, Cloud Functions
 - Impact: Reduced inbox triage overhead and improved response discipline through automated classification and monitoring.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: automation, email-ops, gmail, monitoring
 
 ### Problem
 
@@ -21,4 +22,3 @@ Implemented a service-oriented pipeline around Gmail APIs, AI classifiers, and s
 - Combines Gmail API triage, classifier pipelines, and dedup logic into a production workflow.
 - Includes health checks, watch refresh automation, and deployment scripts for reliability.
 - Designed as an always-on operations system rather than a one-time inbox cleanup script.
-

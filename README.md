@@ -8,6 +8,17 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Projects
 
+### Gmail AI Ops
+
+AI-assisted Gmail triage and monitoring system for categorization, alerting, and operational inbox hygiene.
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: Python, Gmail API, Cloud Functions
+- Impact: Reduced inbox triage overhead and improved response discipline through automated classification and monitoring.
+- Details: projects/gmail_ai_org.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### OpenClaw Workspace
 
 Operational control plane for OpenClaw workflows, memory systems, automation jobs, and system observability.
@@ -51,17 +62,6 @@ Rapid health-web prototype platform for testing messaging, flows, and conversion
 - Stack: React, TypeScript, Tailwind CSS
 - Impact: Accelerated health-site concept validation while keeping a maintainable implementation path.
 - Details: projects/commonsensehealth.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
-### Gmail AI Ops
-
-AI-assisted Gmail triage and monitoring system for categorization, alerting, and operational inbox hygiene.
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: Python, Gmail API, Cloud Functions
-- Impact: Reduced inbox triage overhead and improved response discipline through automated classification and monitoring.
-- Details: projects/gmail_ai_org.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Obsidian Knowledge Ops
