@@ -110,14 +110,17 @@ Private commonsensehealth project. Public showcase summarizes sanitized architec
 
 ### Crosspoint
 
-Private crosspoint project. Public showcase summarizes sanitized architecture and outcomes.
+Stop fragmented care workflows. Start faster, clearer decisions with Crosspoint.
+
+![Crosspoint screenshot](https://raw.githubusercontent.com/btcjon/showcase/main/assets/screenshots/crosspoint.png)
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript, HTML/CSS
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
+- Stack: JavaScript
+- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
+- Demo: https://www.crosspointknightdale.com/
 - Details: projects/crosspoint.md
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
 
 ### Gmail Ai Org
 
