@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-02-21T13:33:37.544304Z",
+  "generated_at": "2026-02-21T14:33:29.947634Z",
   "highlights": [
-    "Private repository with public-safe architecture and outcome summary.",
-    "Automated showcase sync via GitHub Actions pull requests.",
-    "Maintained with continuous iteration and production-oriented workflows."
+    "Before: scattered operational context. After: one clear execution path.",
+    "Automations remove repeat manual steps and enforce consistent process quality.",
+    "Built for production cadence: quick iteration without reliability tradeoffs."
   ],
-  "impact": "Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.",
-  "one_liner": "Private als-clarity project. Public showcase summarizes sanitized architecture and outcomes.",
-  "problem": "Built to solve high-value operational and product workflows in the als-clarity domain.",
+  "impact": "Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.",
+  "one_liner": "Stop fragmented care workflows. Start faster, clearer decisions with Als Clarity.",
+  "problem": "Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.",
   "project_id": "als-clarity",
-  "solution": "Implemented a production-focused system with iterative delivery, automation, and reliability guardrails.",
+  "solution": "Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.",
   "source_repo": "btcjon/als-clarity",
   "stack": [
     "JavaScript",
-    "TypeScript",
-    "HTML/CSS"
+    "TypeScript"
   ],
   "status": "active",
   "tags": [
-    "html-css",
+    "apex",
+    "automation",
+    "healthcare",
     "javascript",
     "private",
-    "showcase",
     "typescript"
   ],
   "title": "Als Clarity",
   "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This page intentionally exposes only sanitized technical context and results."
+  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
 }

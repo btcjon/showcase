@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-02-21T13:34:20.731016Z",
+  "generated_at": "2026-02-21T14:33:48.599782Z",
   "highlights": [
-    "Private repository with public-safe architecture and outcome summary.",
-    "Automated showcase sync via GitHub Actions pull requests.",
-    "Maintained with continuous iteration and production-oriented workflows."
+    "Before: disconnected steps. After: a single, trackable execution path.",
+    "Automation removes avoidable manual work and preserves quality.",
+    "Enables faster iteration with less coordination overhead."
   ],
-  "impact": "Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.",
-  "one_liner": "Private mnemonic project. Public showcase summarizes sanitized architecture and outcomes.",
-  "problem": "Built to solve high-value operational and product workflows in the mnemonic domain.",
+  "impact": "Improved throughput and predictability by reducing operational friction across the build-to-ship loop.",
+  "one_liner": "Stop fragmented execution. Start shipping faster, more reliable outcomes with Mnemonic.",
+  "problem": "Teams lose momentum when core workflows are spread across tools with inconsistent process and ownership.",
   "project_id": "mnemonic",
-  "solution": "Implemented a production-focused system with iterative delivery, automation, and reliability guardrails.",
+  "solution": "Built an integrated workflow system that aligns execution, visibility, and automation for day-to-day delivery.",
   "source_repo": "btcjon/mnemonic",
   "stack": [
     "Private codebase"
   ],
   "status": "active",
   "tags": [
+    "apex",
+    "automation",
+    "platform",
     "private",
-    "private-codebase",
-    "showcase"
+    "private-codebase"
   ],
   "title": "Mnemonic",
   "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This page intentionally exposes only sanitized technical context and results."
+  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
 }

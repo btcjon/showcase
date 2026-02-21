@@ -1,24 +1,24 @@
 ## Logos
 
-Private logos project. Public showcase summarizes sanitized architecture and outcomes.
+Stop slow launch cycles. Start publishing conversion-focused assets faster with Logos.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript, TypeScript, HTML/CSS
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
-- Tags: html-css, javascript, private, showcase, typescript
+- Stack: JavaScript, TypeScript
+- Impact: Cut production friction and increased campaign throughput without sacrificing message quality or brand consistency.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
+- Tags: apex, automation, javascript, marketing, private, typescript
 
 ### Problem
 
-Built to solve high-value operational and product workflows in the logos domain.
+Content and campaign teams lose momentum when creation, approval, and deployment happen in disconnected steps.
 
 ### Solution
 
-Implemented a production-focused system with iterative delivery, automation, and reliability guardrails.
+Built a delivery pipeline that turns strategy into shipped assets quickly, with quality controls and reusable workflows.
 
 ### Highlights
 
-- Private repository with public-safe architecture and outcome summary.
-- Automated showcase sync via GitHub Actions pull requests.
-- Maintained with continuous iteration and production-oriented workflows.
+- Before: slow manual handoffs. After: streamlined build-to-publish flow.
+- Structured workflows improve consistency across pages, campaigns, and assets.
+- Supports rapid iteration driven by performance feedback loops.

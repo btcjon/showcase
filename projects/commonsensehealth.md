@@ -1,24 +1,24 @@
 ## Commonsensehealth
 
-Private commonsensehealth project. Public showcase summarizes sanitized architecture and outcomes.
+Stop fragmented care workflows. Start faster, clearer decisions with Commonsensehealth.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript, TypeScript, HTML/CSS
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
-- Tags: html-css, javascript, private, showcase, typescript
+- Stack: JavaScript, TypeScript
+- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
+- Tags: apex, automation, healthcare, javascript, private, typescript
 
 ### Problem
 
-Built to solve high-value operational and product workflows in the commonsensehealth domain.
+Teams lose time and confidence when patient, ops, and reporting workflows stay disconnected across tools.
 
 ### Solution
 
-Implemented a production-focused system with iterative delivery, automation, and reliability guardrails.
+Built a focused system that unifies high-friction workflows into one reliable flow with clear handoffs and automation.
 
 ### Highlights
 
-- Private repository with public-safe architecture and outcome summary.
-- Automated showcase sync via GitHub Actions pull requests.
-- Maintained with continuous iteration and production-oriented workflows.
+- Before: scattered operational context. After: one clear execution path.
+- Automations remove repeat manual steps and enforce consistent process quality.
+- Built for production cadence: quick iteration without reliability tradeoffs.

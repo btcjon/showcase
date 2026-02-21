@@ -1,24 +1,24 @@
 ## Obsidian
 
-Private obsidian project. Public showcase summarizes sanitized architecture and outcomes.
+Stop fragmented execution. Start shipping faster, more reliable outcomes with Obsidian.
 
 - Status: active
 - Updated: 2026-02-21
 - Stack: Private codebase
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
-- Tags: private, private-codebase, showcase
+- Impact: Improved throughput and predictability by reducing operational friction across the build-to-ship loop.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
+- Tags: apex, automation, platform, private, private-codebase
 
 ### Problem
 
-Built to solve high-value operational and product workflows in the obsidian domain.
+Teams lose momentum when core workflows are spread across tools with inconsistent process and ownership.
 
 ### Solution
 
-Implemented a production-focused system with iterative delivery, automation, and reliability guardrails.
+Built an integrated workflow system that aligns execution, visibility, and automation for day-to-day delivery.
 
 ### Highlights
 
-- Private repository with public-safe architecture and outcome summary.
-- Automated showcase sync via GitHub Actions pull requests.
-- Maintained with continuous iteration and production-oriented workflows.
+- Before: disconnected steps. After: a single, trackable execution path.
+- Automation removes avoidable manual work and preserves quality.
+- Enables faster iteration with less coordination overhead.

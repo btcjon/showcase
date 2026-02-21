@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-02-21T13:34:35.575120Z",
+  "generated_at": "2026-02-21T14:34:01.461161Z",
   "highlights": [
-    "Private repository with public-safe architecture and outcome summary.",
-    "Automated showcase sync via GitHub Actions pull requests.",
-    "Maintained with continuous iteration and production-oriented workflows."
+    "Before: discretionary, fragmented actions. After: consistent execution loops.",
+    "Signal-to-action path is automated to reduce lag and human error.",
+    "System emphasizes controllable risk and measurable iteration velocity."
   ],
-  "impact": "Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.",
-  "one_liner": "Private polymarket project. Public showcase summarizes sanitized architecture and outcomes.",
-  "problem": "Built to solve high-value operational and product workflows in the polymarket domain.",
+  "impact": "Lowered decision latency and improved repeatability of strategy execution under real market conditions.",
+  "one_liner": "Stop guessing market execution. Start shipping repeatable, data-backed decisions with Polymarket.",
+  "problem": "Manual market workflows create inconsistent entries, weak risk discipline, and delayed signal response.",
   "project_id": "polymarket-rust",
-  "solution": "Implemented a production-focused system with iterative delivery, automation, and reliability guardrails.",
+  "solution": "Implemented an execution-focused platform with automation, instrumentation, and decision loops designed for speed and control.",
   "source_repo": "btcjon/polymarket-rust",
   "stack": [
     "JavaScript"
   ],
   "status": "active",
   "tags": [
+    "apex",
+    "automation",
     "javascript",
     "private",
-    "showcase"
+    "trading"
   ],
   "title": "Polymarket",
   "updated_at": "2026-02-21",
-  "visibility_note": "Core repository is private. This page intentionally exposes only sanitized technical context and results."
+  "visibility_note": "Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only."
 }
