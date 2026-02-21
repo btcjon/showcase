@@ -51,16 +51,24 @@ def render_card(project: dict[str, Any]) -> str:
     stack = project.get("stack", [])
     stack_text = ", ".join(stack) if isinstance(stack, list) else str(stack)
     project_page = f"projects/{project.get('_stem', '')}.md"
+    screenshot_url = project.get("screenshot_url")
 
     lines = [
         f"### {title}",
         "",
         one_liner,
         "",
+    ]
+
+    if isinstance(screenshot_url, str) and screenshot_url.strip():
+        lines.append(f"![{title} screenshot]({screenshot_url})")
+        lines.append("")
+
+    lines.extend([
         f"- Status: {status}",
         f"- Updated: {updated_at}",
         f"- Stack: {stack_text}",
-    ]
+    ])
 
     if impact:
         lines.append(f"- Impact: {impact}")
