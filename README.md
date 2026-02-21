@@ -8,6 +8,17 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Projects
 
+### Obsidian Knowledge Ops
+
+Knowledge operations vault built on Obsidian for notes, clippings, archives, and durable project memory.
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: Markdown, Python, Shell, Obsidian
+- Impact: Improved retrieval speed and long-term maintainability for high-volume notes, research captures, and project memory.
+- Details: projects/obsidian.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### OpenClaw Workspace
 
 Operational control plane for OpenClaw workflows, memory systems, automation jobs, and system observability.
@@ -62,17 +73,6 @@ AI-assisted Gmail triage and monitoring system for categorization, alerting, and
 - Stack: Python, Gmail API, Cloud Functions
 - Impact: Reduced inbox triage overhead and improved response discipline through automated classification and monitoring.
 - Details: projects/gmail_ai_org.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
-### Obsidian Knowledge Ops
-
-Knowledge operations vault built on Obsidian for notes, clippings, archives, and durable project memory.
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: Markdown, Python, Shell, Obsidian
-- Impact: Improved retrieval speed and long-term maintainability for high-volume notes, research captures, and project memory.
-- Details: projects/obsidian.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### ZipSlim Front-End Starter

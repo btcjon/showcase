@@ -7,6 +7,7 @@ Knowledge operations vault built on Obsidian for notes, clippings, archives, and
 - Stack: Markdown, Python, Shell, Obsidian
 - Impact: Improved retrieval speed and long-term maintainability for high-volume notes, research captures, and project memory.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: knowledge-management, notes, ops, personal-system
 
 ### Problem
 
@@ -21,4 +22,3 @@ Implemented vault architecture and automation scripts for organizing, pruning, a
 - Organizes long-lived knowledge into active, archived, and clipping lanes to control information entropy.
 - Adds scripted vault maintenance and backup operations for sustainable note growth.
 - Designed as an operational knowledge system, not just a note collection.
-
