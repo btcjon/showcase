@@ -39,6 +39,17 @@ Monthly Contributions
 
 ## Projects
 
+### AI Harness Engineering System
+
+Global AI harness architecture for reusable skills, multi-agent orchestration, memory continuity, and production-safe execution.
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: Python, TypeScript, Shell, MCP, tmux, GitHub Actions
+- Impact: Improved reliability and output consistency across coding, research, and operations workflows while reducing time to deploy new agent capabilities.
+- Details: projects/ai-harness-engineering.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### genr8ive
 
 Agentic engineering front-end that frames multi-agent workflows as a production command surface.
