@@ -8,6 +8,17 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Projects
 
+### Altitude Nutrition Web System
+
+Reusable web foundation for Altitude Nutrition marketing and content experiences.
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: React, TypeScript, Tailwind CSS
+- Impact: Cut page setup time for new content and promotions while maintaining consistent brand presentation.
+- Details: projects/altitude-nutrition.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### OpenClaw Workspace
 
 Operational control plane for OpenClaw workflows, memory systems, automation jobs, and system observability.
@@ -29,17 +40,6 @@ Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle o
 - Impact: Significantly reduced time-to-first-agent for end users while lowering operational support burden.
 - Demo: https://saibot.ai
 - Details: projects/saibot.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
-### Altitude Nutrition Web System
-
-Reusable web foundation for Altitude Nutrition marketing and content experiences.
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: React, TypeScript, Tailwind CSS
-- Impact: Cut page setup time for new content and promotions while maintaining consistent brand presentation.
-- Details: projects/altitude-nutrition.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### CommonSenseHealth Web Prototype
