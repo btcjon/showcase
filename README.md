@@ -4,9 +4,49 @@ Selected work from private repos, shared as sanitized summaries.
 
 - Update model: pull-request based automation from source repos
 - Privacy model: architecture + outcomes, no private source exposure
+- Visuals: frontend screenshots are loaded from `assets/screenshots`
 - Last generated: this file is rebuilt from `projects/*.json`
 
+## Account Activity
+
+- Activity window: 2025-02-21 to 2026-02-21
+- Total contributions: 7,128
+- Commit contributions: 6,949
+- Pull requests: 75
+- Issues: 3
+- Reviews: 0
+- Contributions (last 30 days): 103
+- Active days: 147
+- Estimated source LOC: 316,157
+- LOC scope: Estimated from local tracked source files across showcase repos; excludes vendored dirs and the Obsidian note vault.
+
+```text
+Monthly Contributions
+25-07 | ########################  5728
+25-08 | ###                        631
+25-09 | #                           48
+25-10 | #                            5
+25-11 | #                           10
+25-12 | #                           12
+26-01 | #                           14
+26-02 | #                          100
+```
+
+
 ## Projects
+
+### genr8ive
+
+Agentic engineering front-end that frames multi-agent workflows as a production command surface.
+
+![genr8ive screenshot](assets/screenshots/genr8ive.png)
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: React, TypeScript, Convex, Clerk, Cloudflare Workers
+- Impact: Established a strong foundation for multi-agent workflow composition with a distinct technical brand and interface language.
+- Details: projects/genr8ive.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### OpenClaw Workspace
 
@@ -23,6 +63,8 @@ Operational control plane for OpenClaw workflows, memory systems, automation job
 
 Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle ops for non-technical users.
 
+![SaiBot screenshot](assets/screenshots/saibot.png)
+
 - Status: active
 - Updated: 2026-02-21
 - Stack: TypeScript, React, Hono, PostgreSQL
@@ -35,6 +77,8 @@ Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle o
 
 Reusable web foundation for Altitude Nutrition marketing and content experiences.
 
+![Altitude Nutrition Web System screenshot](assets/screenshots/altitude-nutrition.png)
+
 - Status: active
 - Updated: 2026-02-21
 - Stack: React, TypeScript, Tailwind CSS
@@ -45,6 +89,8 @@ Reusable web foundation for Altitude Nutrition marketing and content experiences
 ### CommonSenseHealth Web Prototype
 
 Rapid health-web prototype platform for testing messaging, flows, and conversion structure.
+
+![CommonSenseHealth Web Prototype screenshot](assets/screenshots/commonsensehealth.png)
 
 - Status: active
 - Updated: 2026-02-21
@@ -79,6 +125,8 @@ Knowledge operations vault built on Obsidian for notes, clippings, archives, and
 
 Lightweight design-system starter for quickly shipping polished React marketing experiences.
 
+![ZipSlim Front-End Starter screenshot](assets/screenshots/zipslim.png)
+
 - Status: active
 - Updated: 2026-02-21
 - Stack: React, TypeScript, Tailwind CSS
@@ -89,6 +137,8 @@ Lightweight design-system starter for quickly shipping polished React marketing 
 ### Browser TUI
 
 Browser-native terminal IDE shell with persistent tmux sessions and integrated file/edit workflows.
+
+![Browser TUI screenshot](assets/screenshots/browser-tui.png)
 
 - Status: active
 - Updated: 2026-02-18
@@ -101,6 +151,8 @@ Browser-native terminal IDE shell with persistent tmux sessions and integrated f
 
 Automated Polymarket trading and arbitrage system for real-time detection, risk checks, and execution.
 
+![Polymarket Trading System screenshot](assets/screenshots/polymarket-rust.png)
+
 - Status: active
 - Updated: 2026-02-14
 - Stack: JavaScript, Node.js, WebSockets, Python
@@ -108,9 +160,24 @@ Automated Polymarket trading and arbitrage system for real-time detection, risk 
 - Details: projects/polymarket-rust.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
+### AIFunnel Web
+
+High-conversion landing site for AI consulting and agentic engineering offers.
+
+![AIFunnel Web screenshot](assets/screenshots/aifunnel-web.png)
+
+- Status: active
+- Updated: 2026-02-06
+- Stack: HTML, CSS, JavaScript, Netlify
+- Impact: Created a high-clarity front door for AI consulting offers and improved how quickly prospects understand the value proposition.
+- Details: projects/aifunnel-web.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### ALS Clarity
 
 Clinical decision-support workflow that helps neurologists differentiate ALS from look-alike conditions.
+
+![ALS Clarity screenshot](assets/screenshots/als-clarity.png)
 
 - Status: active
 - Updated: 2026-02-05
@@ -122,6 +189,8 @@ Clinical decision-support workflow that helps neurologists differentiate ALS fro
 ### Logos Study Workspace
 
 AI-assisted Bible study workspace for guided scripture analysis and structured note synthesis.
+
+![Logos Study Workspace screenshot](assets/screenshots/logos.jpg)
 
 - Status: active
 - Updated: 2026-02-04
@@ -145,6 +214,8 @@ Automation hub for recurring AI operations, monitoring jobs, and task generation
 
 Cross-platform spaced-repetition learning app focused on retention, review flow, and study consistency.
 
+![Mnemonic Learning App screenshot](assets/screenshots/mnemonic.png)
+
 - Status: active
 - Updated: 2026-01-15
 - Stack: TypeScript, React Native, Expo, Web
@@ -155,6 +226,8 @@ Cross-platform spaced-repetition learning app focused on retention, review flow,
 ### ICA Client Onboarding System
 
 Internal onboarding and delivery system for ICA client operations, SEO workflows, and implementation handoffs.
+
+![ICA Client Onboarding System screenshot](assets/screenshots/ica.png)
 
 - Status: active
 - Updated: 2026-01-12
@@ -167,6 +240,8 @@ Internal onboarding and delivery system for ICA client operations, SEO workflows
 
 Terminal UI toolkit that gives Claude Code a dedicated canvas for interactive operations.
 
+![SAI Canvas screenshot](assets/screenshots/sai-canvas.png)
+
 - Status: active
 - Updated: 2026-01-10
 - Stack: JavaScript, Bun, tmux, Terminal UI
@@ -177,6 +252,8 @@ Terminal UI toolkit that gives Claude Code a dedicated canvas for interactive op
 ### Rxion v3
 
 Third-generation front-end foundation focused on cleaner architecture and faster iteration.
+
+![Rxion v3 screenshot](assets/screenshots/rxionv3.jpeg)
 
 - Status: active
 - Updated: 2025-11-30
@@ -189,6 +266,8 @@ Third-generation front-end foundation focused on cleaner architecture and faster
 
 Website migration and modernization program for CrossPoint Knightdale from Squarespace to Wix Studio.
 
+![CrossPoint Website Migration screenshot](assets/screenshots/crosspoint.png)
+
 - Status: active
 - Updated: 2025-11-27
 - Stack: Wix Studio, JavaScript, Tailwind CSS, Alpine.js
@@ -200,6 +279,8 @@ Website migration and modernization program for CrossPoint Knightdale from Squar
 ### 3D Particle Manipulator
 
 Interactive 3D particle experience used to prototype motion, camera, and behavior ideas quickly.
+
+![3D Particle Manipulator screenshot](assets/screenshots/optimialrx.png)
 
 - Status: active
 - Updated: 2025-11-19

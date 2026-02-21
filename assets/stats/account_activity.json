@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-02-21T15:23:50Z",
+  "range_start": "2025-02-21",
+  "range_end": "2026-02-21",
+  "total_contributions": 7128,
+  "commit_contributions": 6949,
+  "pull_request_contributions": 75,
+  "issue_contributions": 3,
+  "review_contributions": 0,
+  "active_days": 147,
+  "contributions_last_30_days": 103,
+  "estimated_source_loc": 316157,
+  "loc_scope_note": "Estimated from local tracked source files across showcase repos; excludes vendored dirs and the Obsidian note vault.",
+  "monthly_contributions": [
+    {
+      "month": "2025-02",
+      "count": 0
+    },
+    {
+      "month": "2025-03",
+      "count": 24
+    },
+    {
+      "month": "2025-04",
+      "count": 41
+    },
+    {
+      "month": "2025-05",
+      "count": 54
+    },
+    {
+      "month": "2025-06",
+      "count": 461
+    },
+    {
+      "month": "2025-07",
+      "count": 5728
+    },
+    {
+      "month": "2025-08",
+      "count": 631
+    },
+    {
+      "month": "2025-09",
+      "count": 48
+    },
+    {
+      "month": "2025-10",
+      "count": 5
+    },
+    {
+      "month": "2025-11",
+      "count": 10
+    },
+    {
+      "month": "2025-12",
+      "count": 12
+    },
+    {
+      "month": "2026-01",
+      "count": 14
+    },
+    {
+      "month": "2026-02",
+      "count": 100
+    }
+  ]
+}

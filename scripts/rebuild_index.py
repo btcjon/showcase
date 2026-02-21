@@ -21,12 +21,15 @@ EXCLUDED_PROJECT_IDS = {
     "rxionv2",
 }
 
+IMAGE_EXTENSIONS = ("png", "jpg", "jpeg", "webp")
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--projects-dir", required=True)
     parser.add_argument("--readme-template", required=True)
     parser.add_argument("--readme-output", required=True)
+    parser.add_argument("--activity-json", default="assets/stats/account_activity.json")
     return parser.parse_args()
 
 
@@ -44,7 +47,29 @@ def parse_datetime(value: str) -> dt.datetime:
         return dt.datetime(1970, 1, 1, tzinfo=dt.UTC)
 
 
-def load_projects(projects_dir: Path) -> list[dict[str, Any]]:
+def parse_int(value: Any) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return 0
+
+
+def format_int(value: Any) -> str:
+    return f"{parse_int(value):,}"
+
+
+def detect_local_screenshot(stem: str, assets_dir: Path, repo_root: Path) -> str:
+    for ext in IMAGE_EXTENSIONS:
+        candidate = assets_dir / f"{stem}.{ext}"
+        if candidate.exists():
+            try:
+                return candidate.relative_to(repo_root).as_posix()
+            except ValueError:
+                return candidate.as_posix()
+    return ""
+
+
+def load_projects(projects_dir: Path, assets_dir: Path, repo_root: Path) -> list[dict[str, Any]]:
     projects: list[dict[str, Any]] = []
     for path in sorted(projects_dir.glob("*.json")):
         try:
@@ -58,6 +83,13 @@ def load_projects(projects_dir: Path) -> list[dict[str, Any]]:
         project_id = str(raw.get("project_id", path.stem))
         if project_id in EXCLUDED_PROJECT_IDS or path.stem in EXCLUDED_PROJECT_IDS:
             continue
+
+        screenshot_url = raw.get("screenshot_url")
+        if isinstance(screenshot_url, str) and screenshot_url.strip():
+            raw["_card_screenshot"] = screenshot_url.strip()
+        else:
+            raw["_card_screenshot"] = detect_local_screenshot(path.stem, assets_dir, repo_root)
+
         projects.append(raw)
 
     projects.sort(
@@ -79,12 +111,17 @@ def render_card(project: dict[str, Any]) -> str:
     stack = project.get("stack", [])
     stack_text = ", ".join(stack) if isinstance(stack, list) else str(stack)
     project_page = f"projects/{project.get('_stem', '')}.md"
+    screenshot = str(project.get("_card_screenshot", ""))
     lines = [
         f"### {title}",
         "",
         one_liner,
         "",
     ]
+
+    if screenshot:
+        lines.append(f"![{title} screenshot]({screenshot})")
+        lines.append("")
 
     lines.extend([
         f"- Status: {status}",
@@ -114,21 +151,107 @@ def render_card(project: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def load_activity_stats(activity_json_path: Path) -> dict[str, Any]:
+    if not activity_json_path.exists():
+        return {}
+    try:
+        raw = json.loads(activity_json_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    if not isinstance(raw, dict):
+        return {}
+    return raw
+
+
+def build_bar(value: int, max_value: int, width: int = 24) -> str:
+    if value <= 0 or max_value <= 0:
+        return ""
+    units = max(1, int(round((value / max_value) * width)))
+    return "#" * units
+
+
+def render_activity_stats(stats: dict[str, Any]) -> str:
+    if not stats:
+        return "_No account activity stats file found at `assets/stats/account_activity.json`._\n"
+
+    range_start = str(stats.get("range_start", "n/a"))
+    range_end = str(stats.get("range_end", "n/a"))
+    total_contributions = parse_int(stats.get("total_contributions"))
+    commit_contributions = parse_int(stats.get("commit_contributions"))
+    pr_contributions = parse_int(stats.get("pull_request_contributions"))
+    issue_contributions = parse_int(stats.get("issue_contributions"))
+    review_contributions = parse_int(stats.get("review_contributions"))
+    active_days = parse_int(stats.get("active_days"))
+    last_30 = parse_int(stats.get("contributions_last_30_days"))
+    estimated_source_loc = parse_int(stats.get("estimated_source_loc"))
+    loc_scope_note = str(stats.get("loc_scope_note", "")).strip()
+
+    lines = [
+        f"- Activity window: {range_start} to {range_end}",
+        f"- Total contributions: {format_int(total_contributions)}",
+        f"- Commit contributions: {format_int(commit_contributions)}",
+        f"- Pull requests: {format_int(pr_contributions)}",
+        f"- Issues: {format_int(issue_contributions)}",
+        f"- Reviews: {format_int(review_contributions)}",
+        f"- Contributions (last 30 days): {format_int(last_30)}",
+        f"- Active days: {format_int(active_days)}",
+        f"- Estimated source LOC: {format_int(estimated_source_loc)}",
+    ]
+
+    if loc_scope_note:
+        lines.append(f"- LOC scope: {loc_scope_note}")
+
+    monthly_raw = stats.get("monthly_contributions", [])
+    monthly: list[tuple[str, int]] = []
+    if isinstance(monthly_raw, list):
+        for item in monthly_raw:
+            if not isinstance(item, dict):
+                continue
+            month = str(item.get("month", "")).strip()
+            if not month:
+                continue
+            count = parse_int(item.get("count"))
+            monthly.append((month, count))
+
+    if monthly:
+        recent = monthly[-8:]
+        max_count = max(count for _, count in recent)
+        lines.append("")
+        lines.append("```text")
+        lines.append("Monthly Contributions")
+        for month, count in recent:
+            label = month[2:] if len(month) >= 7 else month
+            bar = build_bar(count, max_count)
+            lines.append(f"{label:>5} | {bar:<24} {count:>5}")
+        lines.append("```")
+
+    lines.append("")
+    return "\n".join(lines)
+
+
 def main() -> None:
     args = parse_args()
 
     projects_dir = Path(args.projects_dir)
     template_path = Path(args.readme_template)
     output_path = Path(args.readme_output)
+    repo_root = output_path.parent
+    assets_dir = repo_root / "assets" / "screenshots"
+    activity_json_path = Path(args.activity_json)
+    if not activity_json_path.is_absolute():
+        activity_json_path = repo_root / activity_json_path
 
-    projects = load_projects(projects_dir)
+    projects = load_projects(projects_dir, assets_dir, repo_root)
     cards = "\n".join(render_card(p) for p in projects)
+    activity_stats = load_activity_stats(activity_json_path)
+    stats_block = render_activity_stats(activity_stats)
 
     if not cards:
         cards = "_No projects published yet._\n"
 
     template = template_path.read_text(encoding="utf-8")
-    readme = template.replace("{{PROJECT_CARDS}}", cards)
+    readme = template.replace("{{SHOWCASE_STATS}}", stats_block)
+    readme = readme.replace("{{PROJECT_CARDS}}", cards)
     output_path.write_text(readme, encoding="utf-8")
 
 
