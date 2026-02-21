@@ -113,6 +113,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--projects-root", default=str(Path.home() / "Dropbox/Projects"))
     parser.add_argument("--out-json", required=True)
     parser.add_argument("--out-chart", required=True)
+    parser.add_argument("--nbp-note", default="")
     return parser.parse_args()
 
 
@@ -355,7 +356,7 @@ def main() -> None:
         "estimated_source_loc": estimated_source_loc,
         "loc_scope_note": "Estimated from local tracked source files across showcase repos; excludes vendored directories and non-code vault content.",
         "monthly_contributions": monthly,
-        "nbp_note": "NBP generation attempt failed in this run due API credits (code 402). Chart generated from real GitHub data.",
+        "nbp_note": str(args.nbp_note).strip(),
     }
 
     out_json.parent.mkdir(parents=True, exist_ok=True)

@@ -20,7 +20,7 @@ Selected work from private repos, shared as sanitized summaries.
 - Longest streak: 49 days
 - Estimated source LOC: 317,165
 - LOC scope: Estimated from local tracked source files across showcase repos; excludes vendored directories and non-code vault content.
-- NBP note: NBP generation attempt failed in this run due API credits (code 402). Chart generated from real GitHub data.
+- NBP note: NBP-stylized chart generated via nano-banana-pro on 2026-02-21 using full-history GitHub contribution data.
 
 ![Account Activity Chart](assets/stats/account_activity_chart.png)
 

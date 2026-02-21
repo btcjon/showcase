@@ -502,5 +502,5 @@
       "count": 100
     }
   ],
-  "nbp_note": "NBP generation attempt failed in this run due API credits (code 402). Chart generated from real GitHub data."
+  "nbp_note": "NBP-stylized chart generated via nano-banana-pro on 2026-02-21 using full-history GitHub contribution data."
 }
