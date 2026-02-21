@@ -1,306 +1,18 @@
 {
-  "generated_at": "2026-02-21T15:49:58Z",
-  "range_start": "2016-01-10",
+  "generated_at": "2026-02-21T16:25:47Z",
+  "range_start": "2022-01-01",
   "range_end": "2026-02-21",
-  "total_contributions": 7878,
-  "commit_contributions": 7528,
-  "pull_request_contributions": 75,
-  "issue_contributions": 5,
+  "total_contributions": 7859,
+  "commit_contributions": 7516,
+  "pull_request_contributions": 77,
+  "issue_contributions": 3,
   "review_contributions": 0,
-  "active_days": 306,
+  "active_days": 299,
   "longest_streak_days": 49,
-  "contributions_last_30_days": 103,
-  "estimated_source_loc": 317165,
+  "contributions_last_30_days": 108,
+  "estimated_source_loc": 317202,
   "loc_scope_note": "Estimated from local tracked source files across showcase repos; excludes vendored directories and non-code vault content.",
   "monthly_contributions": [
-    {
-      "month": "2016-01",
-      "count": 2
-    },
-    {
-      "month": "2016-02",
-      "count": 0
-    },
-    {
-      "month": "2016-03",
-      "count": 0
-    },
-    {
-      "month": "2016-04",
-      "count": 0
-    },
-    {
-      "month": "2016-05",
-      "count": 0
-    },
-    {
-      "month": "2016-06",
-      "count": 0
-    },
-    {
-      "month": "2016-07",
-      "count": 0
-    },
-    {
-      "month": "2016-08",
-      "count": 0
-    },
-    {
-      "month": "2016-09",
-      "count": 0
-    },
-    {
-      "month": "2016-10",
-      "count": 0
-    },
-    {
-      "month": "2016-11",
-      "count": 0
-    },
-    {
-      "month": "2016-12",
-      "count": 0
-    },
-    {
-      "month": "2017-01",
-      "count": 0
-    },
-    {
-      "month": "2017-02",
-      "count": 0
-    },
-    {
-      "month": "2017-03",
-      "count": 0
-    },
-    {
-      "month": "2017-04",
-      "count": 0
-    },
-    {
-      "month": "2017-05",
-      "count": 0
-    },
-    {
-      "month": "2017-06",
-      "count": 0
-    },
-    {
-      "month": "2017-07",
-      "count": 0
-    },
-    {
-      "month": "2017-08",
-      "count": 0
-    },
-    {
-      "month": "2017-09",
-      "count": 0
-    },
-    {
-      "month": "2017-10",
-      "count": 0
-    },
-    {
-      "month": "2017-11",
-      "count": 0
-    },
-    {
-      "month": "2017-12",
-      "count": 0
-    },
-    {
-      "month": "2018-01",
-      "count": 0
-    },
-    {
-      "month": "2018-02",
-      "count": 0
-    },
-    {
-      "month": "2018-03",
-      "count": 0
-    },
-    {
-      "month": "2018-04",
-      "count": 0
-    },
-    {
-      "month": "2018-05",
-      "count": 0
-    },
-    {
-      "month": "2018-06",
-      "count": 0
-    },
-    {
-      "month": "2018-07",
-      "count": 0
-    },
-    {
-      "month": "2018-08",
-      "count": 0
-    },
-    {
-      "month": "2018-09",
-      "count": 0
-    },
-    {
-      "month": "2018-10",
-      "count": 0
-    },
-    {
-      "month": "2018-11",
-      "count": 0
-    },
-    {
-      "month": "2018-12",
-      "count": 0
-    },
-    {
-      "month": "2019-01",
-      "count": 0
-    },
-    {
-      "month": "2019-02",
-      "count": 0
-    },
-    {
-      "month": "2019-03",
-      "count": 0
-    },
-    {
-      "month": "2019-04",
-      "count": 0
-    },
-    {
-      "month": "2019-05",
-      "count": 0
-    },
-    {
-      "month": "2019-06",
-      "count": 0
-    },
-    {
-      "month": "2019-07",
-      "count": 0
-    },
-    {
-      "month": "2019-08",
-      "count": 0
-    },
-    {
-      "month": "2019-09",
-      "count": 0
-    },
-    {
-      "month": "2019-10",
-      "count": 0
-    },
-    {
-      "month": "2019-11",
-      "count": 0
-    },
-    {
-      "month": "2019-12",
-      "count": 0
-    },
-    {
-      "month": "2020-01",
-      "count": 0
-    },
-    {
-      "month": "2020-02",
-      "count": 0
-    },
-    {
-      "month": "2020-03",
-      "count": 0
-    },
-    {
-      "month": "2020-04",
-      "count": 0
-    },
-    {
-      "month": "2020-05",
-      "count": 15
-    },
-    {
-      "month": "2020-06",
-      "count": 0
-    },
-    {
-      "month": "2020-07",
-      "count": 0
-    },
-    {
-      "month": "2020-08",
-      "count": 0
-    },
-    {
-      "month": "2020-09",
-      "count": 0
-    },
-    {
-      "month": "2020-10",
-      "count": 0
-    },
-    {
-      "month": "2020-11",
-      "count": 0
-    },
-    {
-      "month": "2020-12",
-      "count": 0
-    },
-    {
-      "month": "2021-01",
-      "count": 0
-    },
-    {
-      "month": "2021-02",
-      "count": 0
-    },
-    {
-      "month": "2021-03",
-      "count": 0
-    },
-    {
-      "month": "2021-04",
-      "count": 0
-    },
-    {
-      "month": "2021-05",
-      "count": 0
-    },
-    {
-      "month": "2021-06",
-      "count": 0
-    },
-    {
-      "month": "2021-07",
-      "count": 2
-    },
-    {
-      "month": "2021-08",
-      "count": 0
-    },
-    {
-      "month": "2021-09",
-      "count": 0
-    },
-    {
-      "month": "2021-10",
-      "count": 0
-    },
-    {
-      "month": "2021-11",
-      "count": 0
-    },
-    {
-      "month": "2021-12",
-      "count": 2
-    },
     {
       "month": "2022-01",
       "count": 0
@@ -447,7 +159,7 @@
     },
     {
       "month": "2025-01",
-      "count": 20
+      "count": 15
     },
     {
       "month": "2025-02",
@@ -455,7 +167,7 @@
     },
     {
       "month": "2025-03",
-      "count": 40
+      "count": 42
     },
     {
       "month": "2025-04",
@@ -499,8 +211,8 @@
     },
     {
       "month": "2026-02",
-      "count": 100
+      "count": 105
     }
   ],
-  "nbp_note": "NBP-stylized chart generated via nano-banana-pro on 2026-02-21 using full-history GitHub contribution data."
+  "nbp_note": "Graph window starts at 2022-01-01 and is generated from live GitHub GraphQL contribution data."
 }

@@ -6,7 +6,7 @@ Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle o
 - Updated: 2026-02-21
 - Stack: TypeScript, React, Hono, PostgreSQL
 - Impact: Significantly reduced time-to-first-agent for end users while lowering operational support burden.
-- Demo: https://saibot.ai
+- Demo: https://saibot.genr8ive.ai
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Problem
@@ -22,4 +22,3 @@ Built a production SaaS layer over OpenClaw with automated infra setup, guided o
 - Packages complex OpenClaw infrastructure into a non-technical onboarding experience.
 - Integrates provisioning, DNS, billing, health status, and starter configuration in one product.
 - Built as a full-stack platform rather than a thin dashboard over manual ops.
-

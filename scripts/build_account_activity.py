@@ -111,10 +111,18 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--user", default="btcjon")
     parser.add_argument("--projects-root", default=str(Path.home() / "Dropbox/Projects"))
+    parser.add_argument("--from-date", default="")
     parser.add_argument("--out-json", required=True)
     parser.add_argument("--out-chart", required=True)
     parser.add_argument("--nbp-note", default="")
     return parser.parse_args()
+
+
+def parse_start_date(value: str) -> dt.date | None:
+    raw = str(value).strip()
+    if not raw:
+        return None
+    return dt.date.fromisoformat(raw)
 
 
 def run_gh_graphql(query: str, variables: dict[str, str]) -> dict[str, Any]:
@@ -197,6 +205,8 @@ def render_chart(
     total: int,
     commits: int,
     active_days: int,
+    range_start: dt.date,
+    range_end: dt.date,
 ) -> None:
     labels = [str(item["month"]) for item in monthly]
     values = [int(item["count"]) for item in monthly]
@@ -252,7 +262,7 @@ def render_chart(
         spine.set_color("#334155")
 
     ax.set_title(
-        "GitHub Account Activity (Full History)",
+        f"GitHub Account Activity ({range_start.year}-{range_end.year})",
         color="white",
         fontsize=18,
         pad=18,
@@ -302,6 +312,9 @@ def main() -> None:
 
     created_date = dt.datetime.fromisoformat(created_at.replace("Z", "+00:00")).date()
     today = dt.date.today()
+    requested_start = parse_start_date(args.from_date)
+    if requested_start is not None:
+        created_date = max(created_date, requested_start)
 
     total_contributions = 0
     commit_contributions = 0
@@ -368,6 +381,8 @@ def main() -> None:
         total=total_contributions,
         commits=commit_contributions,
         active_days=active_days,
+        range_start=created_date,
+        range_end=today,
     )
 
 

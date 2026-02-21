@@ -1,4 +1,5 @@
 {
+  "demo_url": "https://commonsensehealth.net",
   "generated_at": "2026-02-21T00:00:00Z",
   "highlights": [
     "Uses a hybrid build loop: fast generation for ideation, local code for controlled refinement.",

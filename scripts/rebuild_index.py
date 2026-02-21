@@ -12,6 +12,7 @@ from typing import Any
 EXCLUDED_PROJECT_IDS = {
     "ai-web-design",
     "als-diag",
+    "altitude-nutrition",
     "cc-vps",
     "claroty2",
     "clartity1",
@@ -81,6 +82,7 @@ def load_projects(projects_dir: Path, assets_dir: Path, repo_root: Path) -> list
         raw["_filename"] = path.name
         raw["_stem"] = path.stem
         project_id = str(raw.get("project_id", path.stem))
+        raw["_project_id"] = project_id
         if project_id in EXCLUDED_PROJECT_IDS or path.stem in EXCLUDED_PROJECT_IDS:
             continue
 
@@ -99,6 +101,8 @@ def load_projects(projects_dir: Path, assets_dir: Path, repo_root: Path) -> list
         ),
         reverse=True,
     )
+    # Keep CommonSenseHealth anchored at the bottom per showcase curation preference.
+    projects.sort(key=lambda p: str(p.get("_project_id", "")) == "commonsensehealth")
     return projects
 
 
@@ -186,7 +190,7 @@ def render_activity_stats(stats: dict[str, Any], chart_path: str = "") -> str:
     last_30 = parse_int(stats.get("contributions_last_30_days"))
     estimated_source_loc = parse_int(stats.get("estimated_source_loc"))
     loc_scope_note = str(stats.get("loc_scope_note", "")).strip()
-    nbp_note = str(stats.get("nbp_note", "")).strip()
+    chart_note = str(stats.get("nbp_note", "")).strip()
 
     lines = [
         f"- Activity window: {range_start} to {range_end}",
@@ -203,8 +207,8 @@ def render_activity_stats(stats: dict[str, Any], chart_path: str = "") -> str:
 
     if loc_scope_note:
         lines.append(f"- LOC scope: {loc_scope_note}")
-    if nbp_note:
-        lines.append(f"- NBP note: {nbp_note}")
+    if chart_note:
+        lines.append(f"- Chart note: {chart_note}")
 
     if chart_path:
         lines.append("")

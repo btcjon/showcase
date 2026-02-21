@@ -9,18 +9,18 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Account Activity
 
-- Activity window: 2016-01-10 to 2026-02-21
-- Total contributions: 7,878
-- Commit contributions: 7,528
-- Pull requests: 75
-- Issues: 5
+- Activity window: 2022-01-01 to 2026-02-21
+- Total contributions: 7,859
+- Commit contributions: 7,516
+- Pull requests: 77
+- Issues: 3
 - Reviews: 0
-- Contributions (last 30 days): 103
-- Active days: 306
+- Contributions (last 30 days): 108
+- Active days: 299
 - Longest streak: 49 days
-- Estimated source LOC: 317,165
+- Estimated source LOC: 317,202
 - LOC scope: Estimated from local tracked source files across showcase repos; excludes vendored directories and non-code vault content.
-- NBP note: NBP-stylized chart generated via nano-banana-pro on 2026-02-21 using full-history GitHub contribution data.
+- Chart note: Graph window starts at 2022-01-01 and is generated from live GitHub GraphQL contribution data.
 
 ![Account Activity Chart](assets/stats/account_activity_chart.png)
 
@@ -33,7 +33,7 @@ Monthly Contributions
 25-11 | #                           10
 25-12 | #                           12
 26-01 | #                           14
-26-02 | #                          100
+26-02 | #                          105
 ```
 
 
@@ -74,44 +74,20 @@ Managed OpenClaw platform that handles provisioning, onboarding, and lifecycle o
 - Updated: 2026-02-21
 - Stack: TypeScript, React, Hono, PostgreSQL
 - Impact: Significantly reduced time-to-first-agent for end users while lowering operational support burden.
-- Demo: https://saibot.ai
+- Demo: https://saibot.genr8ive.ai
 - Details: projects/saibot.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
-### Altitude Nutrition Web System
-
-Reusable web foundation for Altitude Nutrition marketing and content experiences.
-
-![Altitude Nutrition Web System screenshot](assets/screenshots/altitude-nutrition.png)
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: React, TypeScript, Tailwind CSS
-- Impact: Cut page setup time for new content and promotions while maintaining consistent brand presentation.
-- Details: projects/altitude-nutrition.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
-### CommonSenseHealth Web Prototype
-
-Rapid health-web prototype platform for testing messaging, flows, and conversion structure.
-
-![CommonSenseHealth Web Prototype screenshot](assets/screenshots/commonsensehealth.png)
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: React, TypeScript, Tailwind CSS
-- Impact: Accelerated health-site concept validation while keeping a maintainable implementation path.
-- Details: projects/commonsensehealth.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Gmail AI Ops
 
-AI-assisted Gmail triage and monitoring system for categorization, alerting, and operational inbox hygiene.
+Custom AI inbox system that turned 3M+ emails into a clean, prioritized workflow with only must-see messages surfaced.
+
+![Gmail AI Ops screenshot](assets/screenshots/gmail_ai_org.png)
 
 - Status: active
 - Updated: 2026-02-21
 - Stack: Python, Gmail API, Cloud Functions
-- Impact: Reduced inbox triage overhead and improved response discipline through automated classification and monitoring.
+- Impact: Converted a 3M-email backlog into a clean, AI-managed inbox where only relevant, high-value messages stay visible.
 - Details: projects/gmail_ai_org.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
@@ -304,5 +280,19 @@ Google Ads operations toolkit for keyword research, bid tuning, and campaign per
 - Stack: Python, Google Ads API, OAuth2
 - Impact: Improved speed and consistency of keyword/bid management decisions in Google Ads operations.
 - Details: projects/google-ads-management.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
+### CommonSenseHealth Web Prototype
+
+Rapid health-web prototype platform for testing messaging, flows, and conversion structure.
+
+![CommonSenseHealth Web Prototype screenshot](assets/screenshots/commonsensehealth.png)
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: React, TypeScript, Tailwind CSS
+- Impact: Accelerated health-site concept validation while keeping a maintainable implementation path.
+- Demo: https://commonsensehealth.net
+- Details: projects/commonsensehealth.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
