@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-02-21T13:34:45.793745Z",
+  "highlights": [
+    "Private repository with public-safe architecture and outcome summary.",
+    "Automated showcase sync via GitHub Actions pull requests.",
+    "Maintained with continuous iteration and production-oriented workflows."
+  ],
+  "impact": "Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.",
+  "one_liner": "Private sai-canvas project. Public showcase summarizes sanitized architecture and outcomes.",
+  "problem": "Built to solve high-value operational and product workflows in the sai-canvas domain.",
+  "project_id": "sai-canvas",
+  "solution": "Implemented a production-focused system with iterative delivery, automation, and reliability guardrails.",
+  "source_repo": "btcjon/sai-canvas",
+  "stack": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "status": "active",
+  "tags": [
+    "javascript",
+    "private",
+    "showcase",
+    "typescript"
+  ],
+  "title": "Sai Canvas",
+  "updated_at": "2026-02-21",
+  "visibility_note": "Core repository is private. This page intentionally exposes only sanitized technical context and results."
+}
