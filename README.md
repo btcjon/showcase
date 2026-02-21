@@ -165,14 +165,14 @@ Private kestra_dev project. Public showcase summarizes sanitized architecture an
 
 ### Logos
 
-Private logos project. Public showcase summarizes sanitized architecture and outcomes.
+Stop slow launch cycles. Start publishing conversion-focused assets faster with Logos.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript, TypeScript, HTML/CSS
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
+- Stack: JavaScript, TypeScript
+- Impact: Cut production friction and increased campaign throughput without sacrificing message quality or brand consistency.
 - Details: projects/logos.md
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
 
 ### Mnemonic
 
