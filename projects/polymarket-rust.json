@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-14T14:02:35+00:00",
+  "generated_at": "2026-02-21T14:56:29.541513Z",
   "highlights": [
     "Implements multiple arbitrage strategies (mutually exclusive, cascade mispricing, and yes/no gaps).",
     "Separates detector/executor/client layers for clearer risk controls and live-vs-mock execution modes.",
