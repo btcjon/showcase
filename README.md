@@ -308,12 +308,12 @@ Private saibot project. Public showcase summarizes sanitized architecture and ou
 
 ### Zipslim
 
-Private zipslim project. Public showcase summarizes sanitized architecture and outcomes.
+Stop guessing market execution. Start shipping repeatable, data-backed decisions with Zipslim.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript, TypeScript, HTML/CSS
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
+- Stack: JavaScript, TypeScript
+- Impact: Lowered decision latency and improved repeatability of strategy execution under real market conditions.
 - Details: projects/zipslim.md
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
 
