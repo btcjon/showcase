@@ -7,6 +7,7 @@ AI-assisted Bible study workspace for guided scripture analysis and structured n
 - Stack: JavaScript, TypeScript, AI Studio
 - Impact: Improved consistency and depth of Bible-study sessions by reducing workflow friction between reading, interpretation, and note capture.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: bible-study, knowledge-workflow, spiritual-tech, ux
 
 ### Problem
 
@@ -21,4 +22,3 @@ Implemented a focused study interface with guided prompts and output structure f
 - Built to streamline scripture exploration from question to structured study notes.
 - Uses an AI-assisted flow to keep sessions focused while preserving user-controlled interpretation.
 - Optimized as a fast-iteration app deployed through AI Studio for quick feedback loops.
-
