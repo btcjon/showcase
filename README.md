@@ -8,6 +8,17 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Projects
 
+### CommonSenseHealth Web Prototype
+
+Rapid health-web prototype platform for testing messaging, flows, and conversion structure.
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: React, TypeScript, Tailwind CSS
+- Impact: Accelerated health-site concept validation while keeping a maintainable implementation path.
+- Details: projects/commonsensehealth.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
 ### OpenClaw Workspace
 
 Operational control plane for OpenClaw workflows, memory systems, automation jobs, and system observability.
@@ -40,17 +51,6 @@ Reusable web foundation for Altitude Nutrition marketing and content experiences
 - Stack: React, TypeScript, Tailwind CSS
 - Impact: Cut page setup time for new content and promotions while maintaining consistent brand presentation.
 - Details: projects/altitude-nutrition.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
-### CommonSenseHealth Web Prototype
-
-Rapid health-web prototype platform for testing messaging, flows, and conversion structure.
-
-- Status: active
-- Updated: 2026-02-21
-- Stack: React, TypeScript, Tailwind CSS
-- Impact: Accelerated health-site concept validation while keeping a maintainable implementation path.
-- Details: projects/commonsensehealth.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### Gmail AI Ops
