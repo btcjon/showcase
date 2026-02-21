@@ -7,6 +7,7 @@ Cross-platform spaced-repetition learning app focused on retention, review flow,
 - Stack: TypeScript, React Native, Expo, Web
 - Impact: Established a robust foundation for habit-forming recall practice with measurable review progression.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: edtech, learning, mobile, spaced-repetition
 
 ### Problem
 
@@ -21,4 +22,3 @@ Built a mobile/web learning architecture with structured review sessions, sync-a
 - Implements review-centric UX components (swipe cards, progress bars, rating flows) for retention loops.
 - Uses dedicated sync/auth/review hooks to keep learning state coherent across sessions.
 - Combines gamification mechanics with practical study cadence rather than novelty-only interaction.
-

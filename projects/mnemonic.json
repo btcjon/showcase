@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-15T08:02:56+00:00",
+  "generated_at": "2026-02-21T14:56:16.770931Z",
   "highlights": [
     "Implements review-centric UX components (swipe cards, progress bars, rating flows) for retention loops.",
     "Uses dedicated sync/auth/review hooks to keep learning state coherent across sessions.",
