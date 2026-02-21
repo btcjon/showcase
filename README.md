@@ -9,16 +9,20 @@ Selected work from private repos, shared as sanitized summaries.
 
 ## Account Activity
 
-- Activity window: 2025-02-21 to 2026-02-21
-- Total contributions: 7,128
-- Commit contributions: 6,949
+- Activity window: 2016-01-10 to 2026-02-21
+- Total contributions: 7,878
+- Commit contributions: 7,528
 - Pull requests: 75
-- Issues: 3
+- Issues: 5
 - Reviews: 0
 - Contributions (last 30 days): 103
-- Active days: 147
-- Estimated source LOC: 316,157
-- LOC scope: Estimated from local tracked source files across showcase repos; excludes vendored dirs and the Obsidian note vault.
+- Active days: 306
+- Longest streak: 49 days
+- Estimated source LOC: 317,165
+- LOC scope: Estimated from local tracked source files across showcase repos; excludes vendored directories and non-code vault content.
+- NBP note: NBP generation attempt failed in this run due API credits (code 402). Chart generated from real GitHub data.
+
+![Account Activity Chart](assets/stats/account_activity_chart.png)
 
 ```text
 Monthly Contributions

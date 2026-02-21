@@ -170,7 +170,7 @@ def build_bar(value: int, max_value: int, width: int = 24) -> str:
     return "#" * units
 
 
-def render_activity_stats(stats: dict[str, Any]) -> str:
+def render_activity_stats(stats: dict[str, Any], chart_path: str = "") -> str:
     if not stats:
         return "_No account activity stats file found at `assets/stats/account_activity.json`._\n"
 
@@ -182,9 +182,11 @@ def render_activity_stats(stats: dict[str, Any]) -> str:
     issue_contributions = parse_int(stats.get("issue_contributions"))
     review_contributions = parse_int(stats.get("review_contributions"))
     active_days = parse_int(stats.get("active_days"))
+    longest_streak_days = parse_int(stats.get("longest_streak_days"))
     last_30 = parse_int(stats.get("contributions_last_30_days"))
     estimated_source_loc = parse_int(stats.get("estimated_source_loc"))
     loc_scope_note = str(stats.get("loc_scope_note", "")).strip()
+    nbp_note = str(stats.get("nbp_note", "")).strip()
 
     lines = [
         f"- Activity window: {range_start} to {range_end}",
@@ -195,11 +197,18 @@ def render_activity_stats(stats: dict[str, Any]) -> str:
         f"- Reviews: {format_int(review_contributions)}",
         f"- Contributions (last 30 days): {format_int(last_30)}",
         f"- Active days: {format_int(active_days)}",
+        f"- Longest streak: {format_int(longest_streak_days)} days",
         f"- Estimated source LOC: {format_int(estimated_source_loc)}",
     ]
 
     if loc_scope_note:
         lines.append(f"- LOC scope: {loc_scope_note}")
+    if nbp_note:
+        lines.append(f"- NBP note: {nbp_note}")
+
+    if chart_path:
+        lines.append("")
+        lines.append(f"![Account Activity Chart]({chart_path})")
 
     monthly_raw = stats.get("monthly_contributions", [])
     monthly: list[tuple[str, int]] = []
@@ -237,6 +246,7 @@ def main() -> None:
     output_path = Path(args.readme_output)
     repo_root = output_path.parent
     assets_dir = repo_root / "assets" / "screenshots"
+    stats_chart = repo_root / "assets" / "stats" / "account_activity_chart.png"
     activity_json_path = Path(args.activity_json)
     if not activity_json_path.is_absolute():
         activity_json_path = repo_root / activity_json_path
@@ -244,7 +254,14 @@ def main() -> None:
     projects = load_projects(projects_dir, assets_dir, repo_root)
     cards = "\n".join(render_card(p) for p in projects)
     activity_stats = load_activity_stats(activity_json_path)
-    stats_block = render_activity_stats(activity_stats)
+    stats_chart_rel = ""
+    if stats_chart.exists():
+        try:
+            stats_chart_rel = stats_chart.relative_to(repo_root).as_posix()
+        except ValueError:
+            stats_chart_rel = stats_chart.as_posix()
+
+    stats_block = render_activity_stats(activity_stats, chart_path=stats_chart_rel)
 
     if not cards:
         cards = "_No projects published yet._\n"
