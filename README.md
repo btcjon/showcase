@@ -220,14 +220,14 @@ Private openclaw-workspace project. Public showcase summarizes sanitized archite
 
 ### 3js
 
-Private 3js project. Public showcase summarizes sanitized architecture and outcomes.
+Stop manual tool-chaining. Start reliable, automated developer workflows with 3js.
 
 - Status: active
 - Updated: 2026-02-21
-- Stack: JavaScript, TypeScript, HTML/CSS
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
+- Stack: JavaScript, TypeScript
+- Impact: Reduced repetitive engineering overhead and increased team throughput on high-leverage work.
 - Details: projects/optimialrx.md
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
 
 ### Polymarket
 
