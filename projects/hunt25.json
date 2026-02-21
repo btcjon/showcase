@@ -1,0 +1,33 @@
+{
+  "demo_url": "https://hunt25.genr8ive.ai/",
+  "generated_at": "2026-02-21T20:30:00Z",
+  "highlights": [
+    "Built a voice-first game loop where an AI 'Granddaddy' guides players through story-led clue progression.",
+    "Combined real-time chat orchestration with ElevenLabs voice playback to create a cinematic, personalized experience.",
+    "Implemented resilient deployment and API routing patterns so the app stays usable under provider quota and infra pressure."
+  ],
+  "impact": "Turned a one-off family activity into a reusable AI-powered event format with high engagement and repeat play value.",
+  "one_liner": "Voice-first interactive treasure hunt app with AI narration, personalized clues, and progression-driven gameplay.",
+  "problem": "Traditional scavenger hunts feel static and labor-intensive to run, with little personalization once play starts.",
+  "project_id": "hunt25",
+  "solution": "Designed and shipped a live AI game master experience that adapts clue delivery, dialog, and pacing in real time.",
+  "source_repo": "btcjon/hunt25",
+  "stack": [
+    "Next.js 15",
+    "TypeScript",
+    "Anthropic / LLM Proxy",
+    "ElevenLabs TTS",
+    "Netlify"
+  ],
+  "status": "active",
+  "tags": [
+    "ai-experiences",
+    "voice-ui",
+    "gamification",
+    "nextjs",
+    "family-tech"
+  ],
+  "title": "Hunt25 Voice-First Quest App",
+  "updated_at": "2026-02-21",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
+}

@@ -11,11 +11,13 @@ from typing import Any
 
 EXCLUDED_PROJECT_IDS = {
     "ai-web-design",
+    "als-clarity",
     "als-diag",
     "altitude-nutrition",
     "cc-vps",
     "claroty2",
     "clartity1",
+    "ica",
     "kestra_dev",
     "moltbot-workspace",
     "rxion-biz",
@@ -103,9 +105,10 @@ def load_projects(projects_dir: Path, assets_dir: Path, repo_root: Path) -> list
     )
     # Curated ordering for end-of-list cards.
     bottom_priority = {
-        "ica": 1,               # near bottom
-        "commonsensehealth": 2, # near bottom
-        "zipslim": 3,           # bottom
+        "hunt25": 1,            # lower on list
+        "quest-putt": 2,        # lower on list
+        "commonsensehealth": 3, # near bottom
+        "zipslim": 4,           # bottom
     }
     projects.sort(key=lambda p: bottom_priority.get(str(p.get("_project_id", "")), 0))
 

@@ -1,0 +1,33 @@
+{
+  "demo_url": "https://questputt.genr8ive.ai/",
+  "generated_at": "2026-02-21T20:31:00Z",
+  "highlights": [
+    "Built an AI-trivia gameplay engine that adapts question style by audience and keeps sessions dynamic.",
+    "Blended mini-golf mechanics with digital challenge loops, score progression, and retry-safe state handling.",
+    "Implemented interactive frontend flows optimized for in-person event use with fast-start, low-friction UX."
+  ],
+  "impact": "Created a hybrid physical+digital game format that makes events more interactive and raises participation time per player.",
+  "one_liner": "Interactive mini-golf companion app that layers AI-generated trivia, scoring, and progression over each round.",
+  "problem": "Event mini-golf experiences often lose energy between holes and lack personalized engagement mechanics.",
+  "project_id": "quest-putt",
+  "solution": "Engineered a mobile-friendly game layer that injects adaptive trivia and reward progression into each putt sequence.",
+  "source_repo": "private/quest-putt",
+  "stack": [
+    "React",
+    "Vite",
+    "JavaScript",
+    "Anthropic API",
+    "Model Viewer"
+  ],
+  "status": "active",
+  "tags": [
+    "ai-experiences",
+    "gamification",
+    "react",
+    "event-tech",
+    "interactive-ui"
+  ],
+  "title": "Quest Putt",
+  "updated_at": "2026-02-21",
+  "visibility_note": "Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source."
+}

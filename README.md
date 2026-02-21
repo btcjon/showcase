@@ -183,19 +183,6 @@ High-conversion landing site for AI consulting and agentic engineering offers.
 - Details: projects/aifunnel-web.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
-### ALS Clarity
-
-Clinical decision-support workflow that helps neurologists differentiate ALS from look-alike conditions.
-
-![ALS Clarity screenshot](assets/screenshots/als-clarity.png)
-
-- Status: active
-- Updated: 2026-02-05
-- Stack: React, TypeScript, Convex, AI APIs
-- Impact: Improved diagnostic workflow consistency and reduced manual synthesis burden during ALS-vs-mimic evaluations.
-- Details: projects/als-clarity.md
-- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
-
 ### Logos Study Workspace
 
 AI-assisted Bible study workspace for guided scripture analysis and structured note synthesis.
@@ -299,17 +286,32 @@ Google Ads operations toolkit for keyword research, bid tuning, and campaign per
 - Details: projects/google-ads-management.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
-### ICA Client Onboarding System
+### Hunt25 Voice-First Quest App
 
-Internal onboarding and delivery system for ICA client operations, SEO workflows, and implementation handoffs.
+Voice-first interactive treasure hunt app with AI narration, personalized clues, and progression-driven gameplay.
 
-![ICA Client Onboarding System screenshot](assets/screenshots/ica.png)
+![Hunt25 Voice-First Quest App screenshot](assets/screenshots/hunt25.png)
 
 - Status: active
-- Updated: 2026-01-12
-- Stack: HTML, JavaScript, Operations Documentation
-- Impact: Improved onboarding consistency for new client engagements and reduced setup ambiguity across service delivery.
-- Details: projects/ica.md
+- Updated: 2026-02-21
+- Stack: Next.js 15, TypeScript, Anthropic / LLM Proxy, ElevenLabs TTS, Netlify
+- Impact: Turned a one-off family activity into a reusable AI-powered event format with high engagement and repeat play value.
+- Demo: https://hunt25.genr8ive.ai/
+- Details: projects/hunt25.md
+- Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+
+### Quest Putt
+
+Interactive mini-golf companion app that layers AI-generated trivia, scoring, and progression over each round.
+
+![Quest Putt screenshot](assets/screenshots/quest-putt.png)
+
+- Status: active
+- Updated: 2026-02-21
+- Stack: React, Vite, JavaScript, Anthropic API, Model Viewer
+- Impact: Created a hybrid physical+digital game format that makes events more interactive and raises participation time per player.
+- Demo: https://questputt.genr8ive.ai/
+- Details: projects/quest-putt.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
 ### CommonSenseHealth Web Prototype
