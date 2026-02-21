@@ -243,7 +243,7 @@ Website migration and modernization program for CrossPoint Knightdale from Squar
 - Updated: 2025-11-27
 - Stack: Wix Studio, JavaScript, Tailwind CSS, Alpine.js
 - Impact: Created a structured migration path that lowers relaunch risk and protects existing traffic/value during platform transition.
-- Demo: https://www.crosspointknightdale.com/
+- Demo: https://crosspoint-knightdale.netlify.app
 - Details: projects/crosspoint.md
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
 
