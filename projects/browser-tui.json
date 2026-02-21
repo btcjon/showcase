@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-18T14:15:59+00:00",
+  "generated_at": "2026-02-21T14:56:03.590409Z",
   "highlights": [
     "Combines file explorer, Monaco editor, and multiple terminals in a single browser workspace.",
     "Uses hidden tmux-backed terminal persistence so sessions survive browser refreshes.",
