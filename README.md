@@ -132,14 +132,14 @@ Private gmail_ai_org project. Public showcase summarizes sanitized architecture 
 
 ### Google Ads
 
-Private google-ads project. Public showcase summarizes sanitized architecture and outcomes.
+Stop fragmented care workflows. Start faster, clearer decisions with Google Ads.
 
 - Status: active
 - Updated: 2026-02-21
 - Stack: Python
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
+- Impact: Improved delivery consistency and response speed while reducing operational drag in daily care-adjacent execution.
 - Details: projects/google-ads-management.md
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
 
 ### ICA
 
