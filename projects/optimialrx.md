@@ -7,6 +7,7 @@ Interactive 3D particle experience used to prototype motion, camera, and behavio
 - Stack: JavaScript, TypeScript, WebGL
 - Impact: Reduced concept-to-demo time for interactive 3D explorations and made visual interaction decisions easier to validate early.
 - Visibility: Core repository is private. This entry summarizes architecture and working approach without exposing proprietary source.
+- Tags: 3d, frontend, interaction, prototype, webgl
 
 ### Problem
 
@@ -21,4 +22,3 @@ Implemented a lean Vite/TypeScript app that emphasizes direct parameter control 
 - Built as a rapid 3D concept lab where interaction ideas can be tested in-browser in minutes.
 - Uses AI-assisted iteration to tune scene behavior and interaction states without heavy engine setup.
 - Structured as a lightweight local + AI Studio workflow for fast demo publishing and feedback.
-
