@@ -43,6 +43,8 @@ Monthly Contributions
 
 Global AI harness architecture for reusable skills, multi-agent orchestration, memory continuity, and production-safe execution.
 
+![AI Harness Engineering System screenshot](assets/screenshots/ai-harness-engineering.png)
+
 - Status: active
 - Updated: 2026-02-21
 - Stack: Python, TypeScript, Shell, MCP, tmux, GitHub Actions
