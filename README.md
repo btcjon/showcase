@@ -209,14 +209,14 @@ Private obsidian project. Public showcase summarizes sanitized architecture and 
 
 ### Openclaw Workspace
 
-Private openclaw-workspace project. Public showcase summarizes sanitized architecture and outcomes.
+Stop manual tool-chaining. Start reliable, automated developer workflows with Openclaw Workspace.
 
 - Status: active
 - Updated: 2026-02-21
 - Stack: Private codebase
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
+- Impact: Reduced repetitive engineering overhead and increased team throughput on high-leverage work.
 - Details: projects/openclaw-workspace.md
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
 
 ### 3js
 
