@@ -198,14 +198,14 @@ Private moltbot-workspace project. Public showcase summarizes sanitized architec
 
 ### Obsidian
 
-Private obsidian project. Public showcase summarizes sanitized architecture and outcomes.
+Stop fragmented execution. Start shipping faster, more reliable outcomes with Obsidian.
 
 - Status: active
 - Updated: 2026-02-21
 - Stack: Private codebase
-- Impact: Active deployment with ongoing iteration; key impact metrics are tracked internally and summarized safely in this showcase.
+- Impact: Improved throughput and predictability by reducing operational friction across the build-to-ship loop.
 - Details: projects/obsidian.md
-- Visibility: Core repository is private. This page intentionally exposes only sanitized technical context and results.
+- Visibility: Core repository is private. This showcase intentionally shares sanitized architecture, workflow, and outcome context only.
 
 ### Openclaw Workspace
 
